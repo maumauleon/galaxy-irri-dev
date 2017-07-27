@@ -1,0 +1,13 @@
+{
+  "arch": "x86_64", 
+  "build": "py35_4", 
+  "build_number": 4, 
+  "depends": [
+    "python 3.5*"
+  ], 
+  "license": "Public-Domain", 
+  "name": "pycrypto", 
+  "platform": "linux", 
+  "subdir": "linux-64", 
+  "version": "2.6.1"
+}

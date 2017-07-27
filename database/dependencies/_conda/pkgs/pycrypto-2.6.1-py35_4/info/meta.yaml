@@ -1,0 +1,37 @@
+# This file created by conda-build 1.20.3+48.g09ddcfe
+# meta.yaml template originally from:
+# /home/ilan/anaconda/packages/pycrypto, last modified Sat Jun  4 16:38:46 2016
+# ------------------------------------------------
+
+package:
+    name: pycrypto
+    version: 2.6.1
+source:
+    fn: pycrypto-2.6.1.tar.gz
+    md5: 55a61a054aa66812daf5161a0d5d7eda
+    patches:
+        - python3-windows.patch
+    url: http://ftp.dlitz.net/pub/dlitz/crypto/pycrypto/pycrypto-2.6.1.tar.gz
+build:
+    number: '4'
+requirements:
+    build:
+        - python
+    run:
+        - python
+test:
+    imports:
+        - Crypto
+about:
+    description: 'pycrpto, the Python Cryptography Toolkit, is a collection of both
+        secure
+
+        hash functions and various encryption algorithms.
+
+        '
+    dev_url: https://github.com/dlitz/pycrypto
+    doc_url: https://www.dlitz.net/software/pycrypto/api/current/
+    home: http://www.pycrypto.org/
+    license: Public-Domain
+    license_file: COPYRIGHT
+    summary: Cryptographic modules for Python

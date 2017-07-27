@@ -1,0 +1,4 @@
+bin/easy_install
+bin/easy_install-3.5
+lib/python3.5/site-packages/setuptools-27.2.0-py3.5.egg
+lib/python3.5/site-packages/setuptools.pth

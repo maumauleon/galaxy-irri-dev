@@ -1,0 +1,20 @@
+package:
+  name: xz
+  version: 5.2.2
+
+source:
+  fn: xz-5.2.2.tar.xz
+  url: http://tukaani.org/xz/xz-5.2.2.tar.xz
+  sha256: f341b1906ebcdde291dd619399ae944600edc9193619dd0c0110a5f05bfcc89e
+
+test:
+  commands:
+    - xz --help
+    - unxz --help
+
+about:
+  home: http://tukaani.org/xz/
+  license: Public-Domain, GPL
+  license_family: GPL2
+  license_file: COPYING
+  summary: data compression software with high compression ratio
