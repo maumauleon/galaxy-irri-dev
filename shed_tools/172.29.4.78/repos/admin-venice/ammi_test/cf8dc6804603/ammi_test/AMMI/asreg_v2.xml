@@ -1,0 +1,122 @@
+<tool id="ammisreg" name="GEA-R:AMMI-SREG" version="0.01" force_history_refresh="True">
+    <description> R script in Galaxy</description>
+
+    <command interpreter="bash"><![CDATA[
+         runAMMI.sh 
+	'$infile' 
+	'$report' 
+	$expdes
+	'$analysis' 
+	'$lsmeans'
+	'$traits' 
+	'$location' 
+	'$gbtest' 
+	'$pc12' 
+	'$pc23' 
+	'$pc13' 
+	'$pctr' 
+	'$plot'
+    ]]></command>
+    <inputs>
+	<param name="infile" type="data" format="csv" label="Data File"/>
+        <!-- <conditional name="analysis_opts">-->
+         	<param name="expdes" type="select" label="Experimental Design">
+                	<option value="Lattice" selected="True">Lattice</option>
+                	<option value="RCB">RCB</option>
+                	<option value="LSMean">LSMean</option>
+        	</param>
+        	<!--<when value="LSMean">-->
+         		<param name="lsmeans" type="text" size="10" value="NA,NA,NA" label="LSMeans Parameters"/>
+        	<!--</when>
+        	<when value="Lattice"></when>
+        	<when value="RCB"></when>
+        </conditional>-->
+        <param name="analysis" type="select" label="Analysis type">
+                <option value="AMMI" selected="True">AMMI</option>
+                <option value="SREG">SREG</option>
+                <option value="MULTMOD">MULTMOD</option>
+        </param>
+        <param name="traits" type="text" size="10" value="YLD" label="Traits"/>
+        <param name="location" type="text" size="10" value="Batan,Toluca,AguaFria,Tlatizapan,Celaya,Tuxtla,Ameca" label="Location"/>
+    </inputs>
+
+    <outputs>
+        	<data format="csv" name="report" label="Final Scores"/>
+		<data format="csv" name="gbtest" label="Gollobs Test" />
+		<data format="pdf" name="pc12" label="Biplot PC1 vs PC2" />
+		<data format="pdf" name="pc23" label="Biplot PC2 vs PC3" />
+		<data format="pdf" name="pc13" label="Biplot PC1 vs PC3" />
+		<data format="pdf" name="pctr" label="PC1 vs Trait" />
+		<data format="html" name="plot" label="3d Plot" />
+	 </outputs>
+
+     <stdio>
+                <exit_code range="2" level="fatal" description="Out of Memory"/>
+                <exit_code range="3:5" level="warning" description="Low disk space" />
+                <exit_code range="6:" level="fatal" description="Bad input dataset" />
+    </stdio>
+
+	<tests>
+	<test>
+	<param name="infile" value="Yield_Data_for_CovENV.csv"/> <!-- this file should be in the test-data/ -->
+         <conditional name="analysis_opts">
+			 <param name="expdes" value="Lattice" />
+         </conditional>
+        <param name="lsmeans" value="NA,NA,NA" />
+	<param name="analysis" value="AMMI" />
+        <param name="traits" value="YLD"/>
+
+        <param name="location" value="Batan,Toluca,AguaFria,Tlatizapan,Celaya,Tuxtla,Ameca" />
+		<output name="report" file="report.dat" /> <!-- this file should be in the test-data/ -->
+	</test>
+</tests>
+
+	<help>
+
+.. class:: infomark 
+
+GEA-R:AMMI-SREG
+
+Additive main effect and multiplicative interaction analysis (AMMI):
+
+AMMI is a hybrid model involving both additive and multiplicative components of two-way data structure. The model separates the additive variance from the multiplicative variance and then applies principal component analysis (PCA) to the interaction portion to a new set of coordinate axes that explains in more detail the interaction pattern and the estimation accomplished using the least squares principle.
+
+Site Regression (SREG):
+
+Site regression analysis, also called GGE (Genotype Main Effect plus GenotypeEnvironment Interaction), is a linear-bilinear model that removes the effect of location and expresses the answer only as a function of the effect of genotypes and the GEI. This model is recommended when the environments are the main source of variation in relation to the contributions of the genotypes and the GEI with respect to the total variability.
+
+-----
+
+**Parameters**
+
+* Data File.				A csv file which contains the following columns: ENV (environment), GEN (genotype), REP (replication), BLOCK (block), TRAIT
+
+	Sample Data File (TRAIT = YLD (Yield)):
+	
+	 ENV	GEN	REP	BLOCK	YLD 
+	 
+	 Batan	2	1	1	8.67
+	 
+	 Batan	4	1	6	6.67
+	 
+	 Toluca	14	1	6	1.67
+	 
+	 Obregon 6	1	1	2.41
+
+* Experimental Design.			Specify which experimental design to use: Lattice, Randomized Complete Blocks (RCB), or Adjusted Means (LSMeans)
+* Analysis Type.			Specify which analysis to use: AMMI, SREG, or MULTIMOD
+	</help>
+
+	<citations>
+		 <citation type="bibtex">
+			@ARTICLE{CIMMYT:cimmytswdvn-0,
+			author = {Pacheco, Ágela (BSU - CIMMYT); Vargas, Mateo (BSU - CIMMYT); Alvarado, Gregorio (BSU - CIMMYT); Rodríez, Francisco (BSU - CIMMYT); Crossa, JoséBSU - CIMMYT); BurgueñJuan (BSU - CIMMYT)},
+			title = {"GEA-R (Genotype x Environment Analysis with R for Windows) Version 4.0"},
+			handle = {http://hdl.handle.net/11529/10203},
+			distributor = {	International Maize and Wheat Imrovement Center (CIMMYT) }
+			}
+		</citation> 
+
+	</citations>
+</tool>
+

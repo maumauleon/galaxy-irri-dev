@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<tool_sheds>
+    <tool_shed name="IRRI Galaxy Tool Shed" url="http://172.29.4.78:8088/"/>
+<!-- Test Tool Shed should be used only for testing purposes.
+    <tool_shed name="Galaxy Test Tool Shed" url="https://testtoolshed.g2.bx.psu.edu/"/> 
+-->
+</tool_sheds>
