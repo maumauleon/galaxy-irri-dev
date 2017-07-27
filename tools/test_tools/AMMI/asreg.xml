@@ -2,22 +2,35 @@
     <description> R script in Galaxy</description>
 
     <command interpreter="bash"><![CDATA[
-         ./runAMMI.sh '$infile' '$report' '$expdes' '$analysis' '$lsmeans' '$traits' '$location' '$gbtest' '$pc12' '$pc23' '$pc13' '$pctr' '$plot'
+         ./runAMMI.sh 
+	'$infile' 
+	'$report' 
+	$expdes
+	'$analysis' 
+	'$lsmeans'
+	'$traits' 
+	'$location' 
+	'$gbtest' 
+	'$pc12' 
+	'$pc23' 
+	'$pc13' 
+	'$pctr' 
+	'$plot'
     ]]></command>
     <inputs>
 	<param name="infile" type="data" format="csv" label="Data File"/>
-         <conditional name="analysis_opts">
+        <!-- <conditional name="analysis_opts">-->
          	<param name="expdes" type="select" label="Experimental Design">
                 	<option value="Lattice" selected="True">Lattice</option>
                 	<option value="RCB">RCB</option>
                 	<option value="LSMean">LSMean</option>
         	</param>
-        	<when value="LSMean">
+        	<!--<when value="LSMean">-->
          		<param name="lsmeans" type="text" size="10" value="NA,NA,NA" label="LSMeans Parameters"/>
-        	</when>
+        	<!--</when>
         	<when value="Lattice"></when>
         	<when value="RCB"></when>
-        </conditional>
+        </conditional>-->
         <param name="analysis" type="select" label="Analysis type">
                 <option value="AMMI" selected="True">AMMI</option>
                 <option value="SREG">SREG</option>
@@ -58,5 +71,52 @@
 	</test>
 </tests>
 
+	<help>
+
+.. class:: infomark 
+
+GEA-R:AMMI-SREG
+
+Additive main effect and multiplicative interaction analysis (AMMI):
+
+AMMI is a hybrid model involving both additive and multiplicative components of two-way data structure. The model separates the additive variance from the multiplicative variance and then applies principal component analysis (PCA) to the interaction portion to a new set of coordinate axes that explains in more detail the interaction pattern and the estimation accomplished using the least squares principle.
+
+Site Regression (SREG):
+
+Site regression analysis, also called GGE (Genotype Main Effect plus GenotypeEnvironment Interaction), is a linear-bilinear model that removes the effect of location and expresses the answer only as a function of the effect of genotypes and the GEI. This model is recommended when the environments are the main source of variation in relation to the contributions of the genotypes and the GEI with respect to the total variability.
+
+-----
+
+**Parameters**
+
+* Data File.				A csv file which contains the following columns: ENV (environment), GEN (genotype), REP (replication), BLOCK (block), TRAIT
+
+	Sample Data File (TRAIT = YLD (Yield)):
+	
+	 ENV	GEN	REP	BLOCK	YLD 
+	 
+	 Batan	2	1	1	8.67
+	 
+	 Batan	4	1	6	6.67
+	 
+	 Toluca	14	1	6	1.67
+	 
+	 Obregon 6	1	1	2.41
+
+* Experimental Design.			Specify which experimental design to use: Lattice, Randomized Complete Blocks (RCB), or Adjusted Means (LSMeans)
+* Analysis Type.			Specify which analysis to use: AMMI, SREG, or MULTIMOD
+	</help>
+
+	<citations>
+		 <citation type="bibtex">
+			@ARTICLE{CIMMYT:cimmytswdvn-0,
+			author = {Pacheco, Ágela (BSU - CIMMYT); Vargas, Mateo (BSU - CIMMYT); Alvarado, Gregorio (BSU - CIMMYT); Rodríez, Francisco (BSU - CIMMYT); Crossa, JoséBSU - CIMMYT); BurgueñJuan (BSU - CIMMYT)},
+			title = {"GEA-R (Genotype x Environment Analysis with R for Windows) Version 4.0"},
+			handle = {http://hdl.handle.net/11529/10203},
+			distributor = {	International Maize and Wheat Imrovement Center (CIMMYT) }
+			}
+		</citation> 
+
+	</citations>
 </tool>
 
