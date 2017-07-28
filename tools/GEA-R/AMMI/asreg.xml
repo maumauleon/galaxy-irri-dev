@@ -1,0 +1,78 @@
+<tool id="ammisreg" name="GEA-R:AMMI-SREG" version="0.01" force_history_refresh="True">
+    <description> R script in Galaxy</description>
+
+    <command interpreter="bash"><![CDATA[
+         runAMMI-2.sh '$infile' '$report' '$expdes' '$analysis' '$lsmeans' '$traits' '$location' '$gbtest' '$pc12' '$pc23' '$pc13' '$pctr' '$plot'
+    ]]></command>
+    <inputs>
+	<param name="infile" type="data" format="csv" label="Data File"/>
+        <!-- <conditional name="analysis_opts"> -->
+         	<param name="expdes" type="select" label="Experimental Design">
+                	<option value="Lattice" selected="True">Lattice</option>
+                	<option value="RCB">RCB</option>
+                	<option value="LSMean">LSMean</option>
+    		</param>
+	<!-- <when value="LSMean"> -->
+         		<param name="lsmeans" type="text" size="10" value="NA,NA,NA" label="LSMeans Parameters"/>
+        <!--	</when>
+        	<when value="Lattice"></when>
+        	<when value="RCB"></when>
+        </conditional> -->
+        <param name="analysis" type="select" label="Analysis type">
+                <option value="AMMI" selected="True">AMMI</option>
+                <option value="SREG">SREG</option>
+                <option value="MULTMOD">MULTMOD</option>
+        </param>
+        <param name="traits" type="text" size="10" value="YLD" label="Traits"/>
+        <!-- <param name="location" type="text" size="10" value="Batan,Toluca,AguaFria,Tlatizapan,Celaya,Tuxtla,Ameca" label="Location"/> -->
+	<param name="location" type="select" size="100" multiple="true" label="Get Locations">
+		 <options from_dataset="infile">
+			<column name="name" index="1"/>
+			<column name="value" index="1"/>
+			<filter type="unique_value" name="unique_location" column="1"/>
+			<filter type="sort_by" name="sorted_location" column="1"/>
+		  </options>
+		  <sanitizer>
+			<valid initial="default">
+			    <add preset="string.printable"/>
+			    <add value=";"/>
+			    <remove value="&quot;"/>
+			    <remove value="&apos;"/>
+			</valid>
+		   </sanitizer>
+	</param>
+    </inputs>
+
+    <outputs>
+        	<data format="csv" name="report" label="Final Scores"/>
+		<data format="csv" name="gbtest" label="Gollobs Test" />
+		<data format="pdf" name="pc12" label="Biplot PC1 vs PC2" />
+		<data format="pdf" name="pc23" label="Biplot PC2 vs PC3" />
+		<data format="pdf" name="pc13" label="Biplot PC1 vs PC3" />
+		<data format="pdf" name="pctr" label="PC1 vs Trait" />
+		<data format="html" name="plot" label="3d Plot" />
+	 </outputs>
+
+     <stdio>
+                <exit_code range="2" level="fatal" description="Out of Memory"/>
+                <exit_code range="3:5" level="warning" description="Low disk space" />
+                <exit_code range="6:" level="fatal" description="Bad input dataset" />
+    </stdio>
+
+	<tests>
+	<test>
+	<param name="infile" value="Yield_Data_for_CovENV.csv"/> <!-- this file should be in the test-data/ -->
+         <conditional name="analysis_opts">
+			 <param name="expdes" value="Lattice" />
+         </conditional>
+        <param name="lsmeans" value="NA,NA,NA" />
+	<param name="analysis" value="AMMI" />
+        <param name="traits" value="YLD"/>
+
+        <param name="location" value="Batan,Toluca,AguaFria,Tlatizapan,Celaya,Tuxtla,Ameca" />
+		<output name="report" file="report.dat" /> <!-- this file should be in the test-data/ -->
+	</test>
+</tests>
+
+</tool>
+

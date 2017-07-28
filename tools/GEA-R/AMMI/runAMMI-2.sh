@@ -20,7 +20,7 @@ cp $input $tmp".csv"
 #html=${13};
 #tmp=$RANDOM;
 
-Rscript ./AMMI_SREG2.R $input $2 $3 $4 $5 $6 $7 $8 $9 $tmp
+Rscript AMMI_SREG2.R $input $2 $3 $4 $5 $6 $7 $8 $9 $tmp
 #mv $tmp/Final* $report
 #mv $tmp/Gollob* $gbtest
 #mv $tmp/*PC1*PC2* $pc12

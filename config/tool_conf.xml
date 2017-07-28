@@ -3,8 +3,8 @@
   <section id="getext" name="Get Data">
     <tool file="data_source/upload.xml" />
   </section>
-  <section id="send" name="Send Data">
-    <tool file="genomespace/genomespace_exporter.xml" />
+  <section id="gear" name="GEA-R">
+    <tool file="GEA-R/AMMI/asreg.xml" />
   </section>
   <section id="liftOver" name="Lift-Over">
     <tool file="extract/liftOver_wrapper.xml" />

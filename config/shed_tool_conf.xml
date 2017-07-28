@@ -1,3 +1,30 @@
 <?xml version="1.0"?>
 <toolbox tool_path="shed_tools">
+<section id="irri_toolshed_tools" name="IRRI Toolshed Tools" version="">
+  <tool file="172.29.4.78/repos/admin-venice/gear_ammi/e9b9fe657ae0/gear_ammi/AMMI/asreg.xml" guid="172.29.4.78:8088/repos/admin-venice/gear_ammi/ammisreg/0.01">
+      <tool_shed>172.29.4.78:8088</tool_shed>
+        <repository_name>gear_ammi</repository_name>
+        <repository_owner>admin-venice</repository_owner>
+        <installed_changeset_revision>e9b9fe657ae0</installed_changeset_revision>
+        <id>172.29.4.78:8088/repos/admin-venice/gear_ammi/ammisreg/0.01</id>
+        <version>0.01</version>
+    </tool>
+    <tool file="172.29.4.78/repos/admin-venice/gear_ammi/e9b9fe657ae0/gear_ammi/AMMI/asreg.xml" guid="172.29.4.78:8088/repos/admin-venice/gear_ammi/ammisreg/0.01">
+      <tool_shed>172.29.4.78:8088</tool_shed>
+        <repository_name>gear_ammi</repository_name>
+        <repository_owner>admin-venice</repository_owner>
+        <installed_changeset_revision>e9b9fe657ae0</installed_changeset_revision>
+        <id>172.29.4.78:8088/repos/admin-venice/gear_ammi/ammisreg/0.01</id>
+        <version>0.01</version>
+    </tool>
+    <tool file="172.29.4.78/repos/admin-venice/gear_ammi/e9b9fe657ae0/gear_ammi/AMMI/asreg.xml" guid="172.29.4.78:8088/repos/admin-venice/gear_ammi/ammisreg/0.01">
+      <tool_shed>172.29.4.78:8088</tool_shed>
+        <repository_name>gear_ammi</repository_name>
+        <repository_owner>admin-venice</repository_owner>
+        <installed_changeset_revision>e9b9fe657ae0</installed_changeset_revision>
+        <id>172.29.4.78:8088/repos/admin-venice/gear_ammi/ammisreg/0.01</id>
+        <version>0.01</version>
+    </tool>
+</section>
+
 </toolbox>
