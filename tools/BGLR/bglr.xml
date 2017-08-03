@@ -63,7 +63,11 @@ bglr_wrapper.R
 #if $galaxy_cross_validation.do_randomization == "k-fold":
    --nrandom '$galaxy_cross_validation.n_randomizations'
    --kfold $galaxy_cross_validation.kfold
-#####elsif $galaxy_cross_validation.do_randomization == "leave-p-out":
+   --p_out NULL	
+#else if $galaxy_cross_validation.do_randomization == "leave-p-out":
+   --nrandom '$galaxy_cross_validation.n_randomizations'
+   --p_out '$galaxy_cross_validation.p_out'
+   --kfold NULL
 #else:
    --p_out NULL
    --nrandom NULL
@@ -200,7 +204,6 @@ bglr_wrapper.R
 			<option value="no_cross_validation"> No Cross Validation</option>
 			<option value="k-fold"> K Fold Cross Validation</option>
 			<option value="leave-p-out"> Leave-p-out (LPO)</option>
-			<option value="custom_grouping"> Customized Grouping</option>
 	    </param>
 	    <when value="k-fold">
 		<param name="kfold" 
@@ -216,14 +219,21 @@ bglr_wrapper.R
 		value="10" 
 		label="Specify number of randomization." 
 		help="(Default: 10) An integer that species how many times N will be randomized" />
-	    </when>
+	    </when>		    
 	    <when value="leave-p-out">
 		<param name="p_out" 
 		type="text" 
 		size="10" 
-		value="5" 
+		value="1" 
 		label="Specify p." 
-		help="(Default: 5) An integer that specifies how many samples (p) to remove from the complete set, where p > 1.  If p=1, then method is Leave-One-Out (LOO)." />
+		help="(Default: 1) An integer that specifies how many samples (p) to remove from the complete set, where p > 1.  If p=1, then method is Leave-One-Out (LOO)." />
+
+		<param name="n_randomizations"
+                type="text"
+                size="10"
+                value="1"
+                label="Specify number of randomization."
+                help="(Default: 1) An integer that species how many times N will be randomized" />
 	    </when>
     </conditional>
   </inputs>

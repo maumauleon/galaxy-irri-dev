@@ -151,11 +151,19 @@ csvFilePath <- options$csv_file_path;
 
 Nrand = options$nrandom
 folds = options$kfold
-print("CV options")
-print(Nrand)
+pout = options$p_out
+if(!(is.na(pout))){
+	folds=ceiling(length(y)/pout)
+}
+print("CV Parms")
+print(pout)
 print(folds)
+print(Nrand)
 
 if(!(is.na(Nrand)) && !(is.na(folds))){
+	predicted=rep(0,Nrand*length(y))
+	estimates=rep(0,length(y))
+	trueValues=rep(y,Nrand)
 	correlations=rep(0,Nrand*folds)
 	currentCorrelations=rep(0,folds)
 	indexes=c(1:length(y))
@@ -174,50 +182,52 @@ if(!(is.na(Nrand)) && !(is.na(folds))){
 	write(header,file=csvFilePath,ncol=3,sep=",",append=TRUE)
 	for(i in c(1:Nrand)){ ## number of times to randomize samples
 		randIndex=sample(indexes)
-   	    count=1
-		 ## compute foldsize. This is ok if even, but needs to define logic for odd-numbered 	samples
-		#create a fold size vector
+   	    count=0
 		## create the folds
    	    for(j in c(1:folds)){ 
    	     	yt=y
 			## for one of the folds, replace the observed value with NA
    	     	yv=rep(NA,length(y))
     		    	for(k in c(1:foldsize[j])){
-       	        	yt[randIndex[count]]=NA
-                	yv[randIndex[count]]=y[randIndex[count]]
-                	count=count+1
+       	        	yt[randIndex[(count+k)]]=NA
+                	yv[randIndex[(count+k)]]=y[randIndex[count+k]]           	
              }
-    			## fitting
+    		## fitting
             fit=BGLR(y=yt, response_type=response_type, a=a, b=b, ETA=ETA, weights=weights, nIter=nIter, burnIn=burnIn, thin=thin, saveAt=saveAt, S0=S0, df0=df0, R2=R2, verbose=verbose, rmExistingFiles=rmExistingFiles, groups=groups);
-		
-		    ##compute correlation
-            correlations[cvNum]=cor(yv,fit$yHat,use="na.or.complete")
-            currentCorrelations[j]=correlations[cvNum]
+			
+			for(k in c(1:foldsize[j])){
+       	        	estimates[randIndex[count+k]]=fit$yHat[randIndex[count+k]]
+                         	
+             }		
+		    ##populate predictions
+            #correlations[cvNum]=
+            #currentCorrelations[j]=correlations[cvNum]
             cvNum=cvNum+1
+            count=count+foldsize[j]
 	
         }
 		##output the list of correlations
 		write('Summary:',file=csvFilePath, sep="\n",append=TRUE)
-		write('Mean Correlation:',file=csvFilePath,append=TRUE)
-		mean=mean(currentCorrelations[1:length(currentCorrelations)])
-		write(mean,file=csvFilePath, sep="\n",append=TRUE)
-		
+		write('Correlation:',file=csvFilePath,append=TRUE)
+		correlation=cor(estimates,y)
+		write(correlation,file=csvFilePath, sep="\n",append=TRUE)
+		start=(i-1)*length(y)+1
+		stop=i*length(y)
+		predicted[start:stop]=estimates
 	}
 	if (!(is.null(pngFilePath))) {
 			png(pngFilePath);
-			hist(correlations);
+			plot(predicted,trueValues);
 			dev.off(); 
 	}
 	if (!(is.null(pdfFilePath))) {
 		pdf(pdfFilePath);
-		hist(correlations);
+		plot(predicted,trueValues);
 		dev.off(); 
 	}
 
 
-}else if(!(is.na(options$p_out))){
-	
-}else {
+} else {
 	## do BGLR
 	fit=BGLR(y=y, response_type=response_type, a=a, b=b, ETA=ETA, weights=weights, nIter=nIter, burnIn=burnIn, thin=thin, saveAt=saveAt, S0=S0, df0=df0, R2=R2, verbose=verbose, rmExistingFiles=rmExistingFiles, groups=groups);
 	#creating output file for phenotypes and predictions
