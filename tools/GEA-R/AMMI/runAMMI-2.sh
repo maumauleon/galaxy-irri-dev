@@ -28,5 +28,5 @@ Rscript AMMI_SREG2.R $input $2 $3 $4 $5 $6 $7 $8 $9 $tmp
 #mv $tmp/*PC1*PC3* $pc13
 #mv $tmp/PC1*Trait* $pctr
 #mv $tmp/*.html $html
-rm $tmp".csv"
+#rm $tmp".csv"
 echo $tmp

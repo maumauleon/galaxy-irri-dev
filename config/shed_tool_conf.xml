@@ -27,4 +27,26 @@
     </tool>
 </section>
 
+<section id="bglr" name="BGLR" version="">
+  <tool file="175.41.147.71/repos/venicejuanillas/bglr_validate/dc97df091650/bglr_validate/bglr_validate.xml" guid="175.41.147.71:9090/repos/venicejuanillas/bglr_validate/bglr:validate/1.0.016">
+      <tool_shed>175.41.147.71:9090</tool_shed>
+        <repository_name>bglr_validate</repository_name>
+        <repository_owner>venicejuanillas</repository_owner>
+        <installed_changeset_revision>dc97df091650</installed_changeset_revision>
+        <id>175.41.147.71:9090/repos/venicejuanillas/bglr_validate/bglr:validate/1.0.016</id>
+        <version>1.0.016</version>
+    </tool>
+</section>
+
+<section id="bglr" name="BGLR" version="">
+  <tool file="175.41.147.71/repos/venicejuanillas/bglr_encode/f40bc4c11afd/bglr_encode/bglr_encode.xml" guid="175.41.147.71:9090/repos/venicejuanillas/bglr_encode/bglr:encode/1.0.0">
+      <tool_shed>175.41.147.71:9090</tool_shed>
+        <repository_name>bglr_encode</repository_name>
+        <repository_owner>venicejuanillas</repository_owner>
+        <installed_changeset_revision>f40bc4c11afd</installed_changeset_revision>
+        <id>175.41.147.71:9090/repos/venicejuanillas/bglr_encode/bglr:encode/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
 </toolbox>

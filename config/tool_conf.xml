@@ -3,6 +3,9 @@
   <section id="getext" name="Get Data">
     <tool file="data_source/upload.xml" />
   </section>
+  <section id="bglr" name="BGLR">
+    <tool file="BGLR/bglr.xml" />
+  </section>
   <section id="gear" name="GEA-R">
     <tool file="GEA-R/AMMI/asreg.xml" />
   </section>
