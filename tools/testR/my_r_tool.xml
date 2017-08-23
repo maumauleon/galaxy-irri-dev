@@ -1,0 +1,23 @@
+<tool id="my_r_tool" name="My nifty R tool" version="0.1.0">
+        <command interpreter="Rscript" detect_errors="exit_code" ><![CDATA[
+       /home/galaxy/tools/testR/my_r_tool.r --input '$galaxy_input' --output '$galaxy_output'
+    ]]></command>
+    <inputs>
+        <param type="data" name="galaxy_input" format="csv" /> 
+    </inputs>
+    <outputs>
+        <data name="galaxy_output" format="csv" />
+    </outputs>
+    <tests>
+        <test>
+            <param name="galaxy_input" value="input.csv"/>
+            <output name="galaxy_output" file="output.csv"/>
+        </test>
+    </tests>
+    <help><![CDATA[
+        Write the tool help section here.
+    ]]></help>
+    <citations>
+        <citation>10.1186/gb-2010-11-8-r86</citation>
+    </citations> 
+</tool>

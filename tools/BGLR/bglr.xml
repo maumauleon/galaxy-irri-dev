@@ -9,6 +9,9 @@ bglr_wrapper.R
 
 --data_vector_column '$galaxy_data_vector_column'
 
+#set eta = ','.join( [ str( ','.join( [ str($item.input), str($item.model) ] ) ) for $index, $item in enumerate( $galaxy_repeat_eta ) ] )
+--eta "${eta}"
+
 --response_type '$galaxy_response_type_conditional.galaxy_response_type'
 
 #if str($galaxy_lower_bound_vector_column) == "":
@@ -22,9 +25,6 @@ bglr_wrapper.R
 #else:
   --upper_bound_vector_column '$galaxy_upper_bound_vector_column' 
 #end if
-
-#set eta = ','.join( [ str( ','.join( [ str($item.input), str($item.model) ] ) ) for $index, $item in enumerate( $galaxy_repeat_eta ) ] )
---eta "${eta}"
 
 #if str($galaxy_weights_vector_column) == "":
   --weights_vector_column NULL 
@@ -114,14 +114,14 @@ bglr_wrapper.R
         <option value="RKHS">RKHS</option>
       </param>
     </repeat>
-    <conditional name="advanced_parameters">
+<!--  <conditional name="advanced_parameters">
 	<param name="adv_param" type="select" label="Advance Parameters">
 		<option value="hide" selected="true"> Hide</option>
 		<option value="show"> Show</option>
 	</param>
 	<when value="hide"/>
-	<when value="show">
-	    <conditional name="galaxy_response_type_conditional">
+	<when value="show">-->
+	    <conditional nmeame="galaxy_response_type_conditional">
 	      <param name="galaxy_response_type" 
 		     type="select" 
 		     multiple="false" 
@@ -204,8 +204,8 @@ bglr_wrapper.R
 		   help="(default to NULL, integer) A vector of the same length of y that associates observations with groups. Only used with Gaussian outcomes" 
 		   optional="true" />
         
-        </when>
-    </conditional>
+ <!--       </when>
+    </conditional> -->
 
     <conditional name="galaxy_cross_validation">
 	    <param name="do_randomization" 

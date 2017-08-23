@@ -1,0 +1,14 @@
+class: Workflow
+cwlVersion: v1.0
+inputs:
+  range:
+    type: string[]
+    default: ["1", "2", "3"]
+outputs: []
+steps:
+  step1:
+    in:
+      r: range
+    scatter: r
+    out: []
+    run: echo.cwl

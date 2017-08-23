@@ -1,0 +1,5 @@
+class: CommandLineTool
+inputs:
+  r: string
+outputs: []
+arguments: [echo, $(r)]

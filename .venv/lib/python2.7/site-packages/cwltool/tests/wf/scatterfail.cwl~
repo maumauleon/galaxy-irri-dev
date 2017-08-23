@@ -1,0 +1,16 @@
+class: Workflow
+inputs: []
+outputs: []
+steps:
+  step1:
+    in: []
+    out: []
+    run: success.cwl
+  step2:
+    in: []
+    out: []
+    run: fail.cwl
+  step3:
+    in: []
+    out: []
+    run: success.cwl

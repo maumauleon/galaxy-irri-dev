@@ -1,0 +1,6 @@
+cwlVersion: v1.0
+class: Workflow
+inputs:
+  a: int
+outputs: []
+steps:

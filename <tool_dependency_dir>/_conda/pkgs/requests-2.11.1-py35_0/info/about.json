@@ -1,0 +1,8 @@
+{
+  "description": "Requests is the only Non-GMO HTTP library for Python, safe for human\nconsumption.\n", 
+  "dev_url": "https://github.com/kennethreitz/requests", 
+  "doc_url": "http://docs.python-requests.org/", 
+  "home": "http://docs.python-requests.org/en/latest/index.html", 
+  "license": "Apache", 
+  "summary": "Python HTTP for Humans"
+}

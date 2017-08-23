@@ -1,0 +1,1411 @@
+Activating virtualenv at .venv
+Requirement already satisfied: pip>=8.1 in ./.venv/lib/python2.7/site-packages
+Requirement already satisfied: bx-python==0.7.3 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied: MarkupSafe==0.23 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied: PyYAML==3.11 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 4))
+Requirement already satisfied: SQLAlchemy==1.0.15 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 5))
+Requirement already satisfied: mercurial==3.7.3 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 6))
+Requirement already satisfied: numpy==1.9.2 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 7))
+Requirement already satisfied: pycrypto==2.6.1 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 8))
+Requirement already satisfied: Paste==2.0.2 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 15))
+Requirement already satisfied: PasteDeploy==1.5.2 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 16))
+Requirement already satisfied: docutils==0.12 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 17))
+Requirement already satisfied: wchartype==0.1 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 18))
+Requirement already satisfied: repoze.lru==0.6 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 19))
+Requirement already satisfied: Routes==2.4.1 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 20))
+Requirement already satisfied: WebOb==1.4.1 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 21))
+Requirement already satisfied: WebHelpers==1.3 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 22))
+Requirement already satisfied: Mako==1.0.2 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 23))
+Requirement already satisfied: pytz==2015.4 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 24))
+Requirement already satisfied: Babel==2.1.1 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 25))
+Requirement already satisfied: Beaker==1.7.0 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 26))
+Requirement already satisfied: dictobj==0.3.1 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 27))
+Requirement already satisfied: nose==1.3.7 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 28))
+Requirement already satisfied: Parsley==1.3 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 29))
+Requirement already satisfied: six==1.10.0 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 30))
+Requirement already satisfied: Whoosh==2.7.4 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 31))
+Requirement already satisfied: testfixtures==4.10.0 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 32))
+Requirement already satisfied: galaxy_sequence_utils==1.0.2 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 33))
+Requirement already satisfied: Cheetah==2.4.4 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 36))
+Requirement already satisfied: Markdown==2.6.3 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 37))
+Requirement already satisfied: bioblend==0.7.0 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 40))
+Requirement already satisfied: boto==2.38.0 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 41))
+Requirement already satisfied: requests==2.8.1 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 42))
+Requirement already satisfied: requests-toolbelt==0.4.0 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 43))
+Requirement already satisfied: kombu==3.0.30 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 46))
+Requirement already satisfied: amqp==1.4.8 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 47))
+Requirement already satisfied: anyjson==0.3.3 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 48))
+Requirement already satisfied: psutil==4.1.0 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 51))
+Requirement already satisfied: pulsar-galaxy-lib==0.7.0.dev5 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 52))
+Requirement already satisfied: sqlalchemy-migrate==0.10.0 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 55))
+Requirement already satisfied: decorator==4.0.2 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 56))
+Requirement already satisfied: Tempita==0.5.3dev in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 57))
+Requirement already satisfied: sqlparse==0.1.16 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 58))
+Requirement already satisfied: pbr==1.8.0 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 59))
+Requirement already satisfied: svgwrite==1.1.6 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 62))
+Requirement already satisfied: pyparsing==2.1.1 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 63))
+Requirement already satisfied: Fabric==1.10.2 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 66))
+Requirement already satisfied: paramiko==1.15.2 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 67))
+Requirement already satisfied: ecdsa==0.13 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 68))
+Requirement already satisfied: pysam==0.8.4+gx5 in ./.venv/lib/python2.7/site-packages (from -r requirements.txt (line 71))
+Requirement already satisfied: PasteScript in ./.venv/lib/python2.7/site-packages (from pulsar-galaxy-lib==0.7.0.dev5->-r requirements.txt (line 52))
+Activating virtualenv at .venv
+galaxy.tools.deps.conda_util WARNING 2017-08-08 13:01:06,428 Cannot install Conda because conda_prefix '/home/galaxy/galaxy/database/dependencies/_conda' exists and is not empty.
+galaxy.tools.deps.conda_util WARNING 2017-08-08 13:01:06,429 Cannot install Conda because conda_prefix '/home/galaxy/galaxy/database/dependencies/_conda' exists and is not empty.
+galaxy.queue_worker INFO 2017-08-08 13:01:10,666 Initializing main Galaxy Queue Worker on sqlalchemy+sqlite:///./database/control.sqlite?isolation_level=IMMEDIATE
+tool_shed.tool_shed_registry DEBUG 2017-08-08 13:01:10,763 Loading references to tool sheds from ./config/tool_sheds_conf.xml
+tool_shed.tool_shed_registry DEBUG 2017-08-08 13:01:10,775 Loaded reference to tool shed: Galaxy main tool shed
+tool_shed.tool_shed_registry DEBUG 2017-08-08 13:01:10,775 Loaded reference to tool shed: IRRI Galaxy Tool Shed
+tool_shed.tool_shed_registry DEBUG 2017-08-08 13:01:10,776 Loaded reference to tool shed: IRRI Galaxy Test Tool Shed
+galaxy.app DEBUG 2017-08-08 13:01:10,777 Using "galaxy.ini" config file: /home/galaxy/galaxy/config/galaxy.ini
+migrate.versioning.repository DEBUG 2017-08-08 13:01:10,942 Loading repository lib/galaxy/model/migrate...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,944 Loading script lib/galaxy/model/migrate/versions/0001_initial_tables.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,944 Script lib/galaxy/model/migrate/versions/0001_initial_tables.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,944 Loading script lib/galaxy/model/migrate/versions/0002_metadata_file_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,945 Script lib/galaxy/model/migrate/versions/0002_metadata_file_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,945 Loading script lib/galaxy/model/migrate/versions/0003_security_and_libraries.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,945 Script lib/galaxy/model/migrate/versions/0003_security_and_libraries.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,945 Loading script lib/galaxy/model/migrate/versions/0004_indexes_and_defaults.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,946 Script lib/galaxy/model/migrate/versions/0004_indexes_and_defaults.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,946 Loading script lib/galaxy/model/migrate/versions/0005_cleanup_datasets_fix.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,946 Script lib/galaxy/model/migrate/versions/0005_cleanup_datasets_fix.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,947 Loading script lib/galaxy/model/migrate/versions/0006_change_qual_datatype.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,947 Script lib/galaxy/model/migrate/versions/0006_change_qual_datatype.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,947 Loading script lib/galaxy/model/migrate/versions/0007_sharing_histories.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,947 Script lib/galaxy/model/migrate/versions/0007_sharing_histories.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,948 Loading script lib/galaxy/model/migrate/versions/0008_galaxy_forms.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,948 Script lib/galaxy/model/migrate/versions/0008_galaxy_forms.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,948 Loading script lib/galaxy/model/migrate/versions/0009_request_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,948 Script lib/galaxy/model/migrate/versions/0009_request_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,948 Loading script lib/galaxy/model/migrate/versions/0010_hda_display_at_authz_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,948 Script lib/galaxy/model/migrate/versions/0010_hda_display_at_authz_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,948 Loading script lib/galaxy/model/migrate/versions/0011_v0010_mysql_index_fix.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,948 Script lib/galaxy/model/migrate/versions/0011_v0010_mysql_index_fix.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,949 Loading script lib/galaxy/model/migrate/versions/0012_user_address.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,949 Script lib/galaxy/model/migrate/versions/0012_user_address.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,949 Loading script lib/galaxy/model/migrate/versions/0013_change_lib_item_templates_to_forms.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,949 Script lib/galaxy/model/migrate/versions/0013_change_lib_item_templates_to_forms.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,949 Loading script lib/galaxy/model/migrate/versions/0014_pages.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,949 Script lib/galaxy/model/migrate/versions/0014_pages.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,949 Loading script lib/galaxy/model/migrate/versions/0015_tagging.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,949 Script lib/galaxy/model/migrate/versions/0015_tagging.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,949 Loading script lib/galaxy/model/migrate/versions/0016_v0015_mysql_index_fix.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,949 Script lib/galaxy/model/migrate/versions/0016_v0015_mysql_index_fix.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,950 Loading script lib/galaxy/model/migrate/versions/0017_library_item_indexes.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,950 Script lib/galaxy/model/migrate/versions/0017_library_item_indexes.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,950 Loading script lib/galaxy/model/migrate/versions/0018_ordered_tags_and_page_tags.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,950 Script lib/galaxy/model/migrate/versions/0018_ordered_tags_and_page_tags.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,950 Loading script lib/galaxy/model/migrate/versions/0019_request_library_folder.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,950 Script lib/galaxy/model/migrate/versions/0019_request_library_folder.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,950 Loading script lib/galaxy/model/migrate/versions/0020_library_upload_job.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,951 Script lib/galaxy/model/migrate/versions/0020_library_upload_job.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,951 Loading script lib/galaxy/model/migrate/versions/0021_user_prefs.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,951 Script lib/galaxy/model/migrate/versions/0021_user_prefs.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,951 Loading script lib/galaxy/model/migrate/versions/0022_visualization_tables.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,951 Script lib/galaxy/model/migrate/versions/0022_visualization_tables.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,951 Loading script lib/galaxy/model/migrate/versions/0023_page_published_and_deleted_columns.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,951 Script lib/galaxy/model/migrate/versions/0023_page_published_and_deleted_columns.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,951 Loading script lib/galaxy/model/migrate/versions/0024_page_slug_unique_constraint.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,951 Script lib/galaxy/model/migrate/versions/0024_page_slug_unique_constraint.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,951 Loading script lib/galaxy/model/migrate/versions/0025_user_info.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,951 Script lib/galaxy/model/migrate/versions/0025_user_info.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,952 Loading script lib/galaxy/model/migrate/versions/0026_cloud_tables.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,952 Script lib/galaxy/model/migrate/versions/0026_cloud_tables.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,952 Loading script lib/galaxy/model/migrate/versions/0027_request_events.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,952 Script lib/galaxy/model/migrate/versions/0027_request_events.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,952 Loading script lib/galaxy/model/migrate/versions/0028_external_metadata_file_override.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,952 Script lib/galaxy/model/migrate/versions/0028_external_metadata_file_override.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,952 Loading script lib/galaxy/model/migrate/versions/0029_user_actions.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,952 Script lib/galaxy/model/migrate/versions/0029_user_actions.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,953 Loading script lib/galaxy/model/migrate/versions/0030_history_slug_column.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,953 Script lib/galaxy/model/migrate/versions/0030_history_slug_column.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,953 Loading script lib/galaxy/model/migrate/versions/0031_community_and_workflow_tags.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,954 Script lib/galaxy/model/migrate/versions/0031_community_and_workflow_tags.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,954 Loading script lib/galaxy/model/migrate/versions/0032_stored_workflow_slug_column.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,954 Script lib/galaxy/model/migrate/versions/0032_stored_workflow_slug_column.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,954 Loading script lib/galaxy/model/migrate/versions/0033_published_cols_for_histories_and_workflows.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,954 Script lib/galaxy/model/migrate/versions/0033_published_cols_for_histories_and_workflows.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,954 Loading script lib/galaxy/model/migrate/versions/0034_page_user_share_association.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,955 Script lib/galaxy/model/migrate/versions/0034_page_user_share_association.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,955 Loading script lib/galaxy/model/migrate/versions/0035_item_annotations_and_workflow_step_tags.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,955 Script lib/galaxy/model/migrate/versions/0035_item_annotations_and_workflow_step_tags.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,955 Loading script lib/galaxy/model/migrate/versions/0036_add_deleted_column_to_library_template_assoc_tables.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,955 Script lib/galaxy/model/migrate/versions/0036_add_deleted_column_to_library_template_assoc_tables.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,955 Loading script lib/galaxy/model/migrate/versions/0037_samples_library.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,955 Script lib/galaxy/model/migrate/versions/0037_samples_library.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,955 Loading script lib/galaxy/model/migrate/versions/0038_add_inheritable_column_to_library_template_assoc_tables.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,955 Script lib/galaxy/model/migrate/versions/0038_add_inheritable_column_to_library_template_assoc_tables.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,956 Loading script lib/galaxy/model/migrate/versions/0039_add_synopsis_column_to_library_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,956 Script lib/galaxy/model/migrate/versions/0039_add_synopsis_column_to_library_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,956 Loading script lib/galaxy/model/migrate/versions/0040_page_annotations.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,956 Script lib/galaxy/model/migrate/versions/0040_page_annotations.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,956 Loading script lib/galaxy/model/migrate/versions/0041_workflow_invocation.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,956 Script lib/galaxy/model/migrate/versions/0041_workflow_invocation.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,956 Loading script lib/galaxy/model/migrate/versions/0042_workflow_invocation_fix.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,956 Script lib/galaxy/model/migrate/versions/0042_workflow_invocation_fix.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,956 Loading script lib/galaxy/model/migrate/versions/0043_visualization_sharing_tagging_annotating.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,956 Script lib/galaxy/model/migrate/versions/0043_visualization_sharing_tagging_annotating.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,957 Loading script lib/galaxy/model/migrate/versions/0044_add_notify_column_to_request_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,957 Script lib/galaxy/model/migrate/versions/0044_add_notify_column_to_request_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,957 Loading script lib/galaxy/model/migrate/versions/0045_request_type_permissions_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,957 Script lib/galaxy/model/migrate/versions/0045_request_type_permissions_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,958 Loading script lib/galaxy/model/migrate/versions/0046_post_job_actions.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,958 Script lib/galaxy/model/migrate/versions/0046_post_job_actions.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,958 Loading script lib/galaxy/model/migrate/versions/0047_job_table_user_id_column.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,958 Script lib/galaxy/model/migrate/versions/0047_job_table_user_id_column.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,958 Loading script lib/galaxy/model/migrate/versions/0048_dataset_instance_state_column.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,958 Script lib/galaxy/model/migrate/versions/0048_dataset_instance_state_column.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,959 Loading script lib/galaxy/model/migrate/versions/0049_api_keys_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,959 Script lib/galaxy/model/migrate/versions/0049_api_keys_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,959 Loading script lib/galaxy/model/migrate/versions/0050_drop_cloud_tables.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,959 Script lib/galaxy/model/migrate/versions/0050_drop_cloud_tables.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,959 Loading script lib/galaxy/model/migrate/versions/0051_imported_col_for_jobs_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,960 Script lib/galaxy/model/migrate/versions/0051_imported_col_for_jobs_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,960 Loading script lib/galaxy/model/migrate/versions/0052_sample_dataset_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,961 Script lib/galaxy/model/migrate/versions/0052_sample_dataset_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,962 Loading script lib/galaxy/model/migrate/versions/0053_item_ratings.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,963 Script lib/galaxy/model/migrate/versions/0053_item_ratings.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,963 Loading script lib/galaxy/model/migrate/versions/0054_visualization_dbkey.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,963 Script lib/galaxy/model/migrate/versions/0054_visualization_dbkey.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,963 Loading script lib/galaxy/model/migrate/versions/0055_add_pja_assoc_for_jobs.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,964 Script lib/galaxy/model/migrate/versions/0055_add_pja_assoc_for_jobs.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,964 Loading script lib/galaxy/model/migrate/versions/0056_workflow_outputs.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,965 Script lib/galaxy/model/migrate/versions/0056_workflow_outputs.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,965 Loading script lib/galaxy/model/migrate/versions/0057_request_notify.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,966 Script lib/galaxy/model/migrate/versions/0057_request_notify.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,966 Loading script lib/galaxy/model/migrate/versions/0058_history_import_export.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,966 Script lib/galaxy/model/migrate/versions/0058_history_import_export.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,966 Loading script lib/galaxy/model/migrate/versions/0059_sample_dataset_file_path.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,967 Script lib/galaxy/model/migrate/versions/0059_sample_dataset_file_path.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,967 Loading script lib/galaxy/model/migrate/versions/0060_history_archive_import.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,967 Script lib/galaxy/model/migrate/versions/0060_history_archive_import.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,967 Loading script lib/galaxy/model/migrate/versions/0061_tasks.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,967 Script lib/galaxy/model/migrate/versions/0061_tasks.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,968 Loading script lib/galaxy/model/migrate/versions/0062_user_openid_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,968 Script lib/galaxy/model/migrate/versions/0062_user_openid_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,968 Loading script lib/galaxy/model/migrate/versions/0063_sequencer_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,968 Script lib/galaxy/model/migrate/versions/0063_sequencer_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,968 Loading script lib/galaxy/model/migrate/versions/0064_add_run_and_sample_run_association_tables.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,968 Script lib/galaxy/model/migrate/versions/0064_add_run_and_sample_run_association_tables.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,968 Loading script lib/galaxy/model/migrate/versions/0065_add_name_to_form_fields_and_values.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,969 Script lib/galaxy/model/migrate/versions/0065_add_name_to_form_fields_and_values.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,969 Loading script lib/galaxy/model/migrate/versions/0066_deferred_job_and_transfer_job_tables.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,969 Script lib/galaxy/model/migrate/versions/0066_deferred_job_and_transfer_job_tables.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,969 Loading script lib/galaxy/model/migrate/versions/0067_populate_sequencer_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,969 Script lib/galaxy/model/migrate/versions/0067_populate_sequencer_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,969 Loading script lib/galaxy/model/migrate/versions/0068_rename_sequencer_to_external_services.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,969 Script lib/galaxy/model/migrate/versions/0068_rename_sequencer_to_external_services.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,969 Loading script lib/galaxy/model/migrate/versions/0069_rename_sequencer_form_type.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,969 Script lib/galaxy/model/migrate/versions/0069_rename_sequencer_form_type.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,969 Loading script lib/galaxy/model/migrate/versions/0070_add_info_column_to_deferred_job_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,970 Script lib/galaxy/model/migrate/versions/0070_add_info_column_to_deferred_job_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,970 Loading script lib/galaxy/model/migrate/versions/0071_add_history_and_workflow_to_sample.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,970 Script lib/galaxy/model/migrate/versions/0071_add_history_and_workflow_to_sample.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,970 Loading script lib/galaxy/model/migrate/versions/0072_add_pid_and_socket_columns_to_transfer_job_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,970 Script lib/galaxy/model/migrate/versions/0072_add_pid_and_socket_columns_to_transfer_job_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,970 Loading script lib/galaxy/model/migrate/versions/0073_add_ldda_to_implicit_conversion_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,970 Script lib/galaxy/model/migrate/versions/0073_add_ldda_to_implicit_conversion_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,970 Loading script lib/galaxy/model/migrate/versions/0074_add_purged_column_to_library_dataset_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,970 Script lib/galaxy/model/migrate/versions/0074_add_purged_column_to_library_dataset_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,971 Loading script lib/galaxy/model/migrate/versions/0075_add_subindex_column_to_run_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,971 Script lib/galaxy/model/migrate/versions/0075_add_subindex_column_to_run_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,971 Loading script lib/galaxy/model/migrate/versions/0076_fix_form_values_data_corruption.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,971 Script lib/galaxy/model/migrate/versions/0076_fix_form_values_data_corruption.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,971 Loading script lib/galaxy/model/migrate/versions/0077_create_tool_tag_association_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,971 Script lib/galaxy/model/migrate/versions/0077_create_tool_tag_association_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,971 Loading script lib/galaxy/model/migrate/versions/0078_add_columns_for_disk_usage_accounting.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,971 Script lib/galaxy/model/migrate/versions/0078_add_columns_for_disk_usage_accounting.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,971 Loading script lib/galaxy/model/migrate/versions/0079_input_library_to_job_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,971 Script lib/galaxy/model/migrate/versions/0079_input_library_to_job_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,972 Loading script lib/galaxy/model/migrate/versions/0080_quota_tables.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,972 Script lib/galaxy/model/migrate/versions/0080_quota_tables.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,972 Loading script lib/galaxy/model/migrate/versions/0081_add_tool_version_to_hda_ldda.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,972 Script lib/galaxy/model/migrate/versions/0081_add_tool_version_to_hda_ldda.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,972 Loading script lib/galaxy/model/migrate/versions/0082_add_tool_shed_repository_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,972 Script lib/galaxy/model/migrate/versions/0082_add_tool_shed_repository_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,972 Loading script lib/galaxy/model/migrate/versions/0083_add_prepare_files_to_task.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,972 Script lib/galaxy/model/migrate/versions/0083_add_prepare_files_to_task.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,972 Loading script lib/galaxy/model/migrate/versions/0084_add_ldda_id_to_implicit_conversion_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,972 Script lib/galaxy/model/migrate/versions/0084_add_ldda_id_to_implicit_conversion_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,973 Loading script lib/galaxy/model/migrate/versions/0085_add_task_info.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,973 Script lib/galaxy/model/migrate/versions/0085_add_task_info.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,973 Loading script lib/galaxy/model/migrate/versions/0086_add_tool_shed_repository_table_columns.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,973 Script lib/galaxy/model/migrate/versions/0086_add_tool_shed_repository_table_columns.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,973 Loading script lib/galaxy/model/migrate/versions/0087_tool_id_guid_map_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,973 Script lib/galaxy/model/migrate/versions/0087_tool_id_guid_map_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,973 Loading script lib/galaxy/model/migrate/versions/0088_add_installed_changeset_revison_column.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,973 Script lib/galaxy/model/migrate/versions/0088_add_installed_changeset_revison_column.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,973 Loading script lib/galaxy/model/migrate/versions/0089_add_object_store_id_columns.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,973 Script lib/galaxy/model/migrate/versions/0089_add_object_store_id_columns.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,973 Loading script lib/galaxy/model/migrate/versions/0090_add_tool_shed_repository_table_columns.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,974 Script lib/galaxy/model/migrate/versions/0090_add_tool_shed_repository_table_columns.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,974 Loading script lib/galaxy/model/migrate/versions/0091_add_tool_version_tables.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,974 Script lib/galaxy/model/migrate/versions/0091_add_tool_version_tables.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,974 Loading script lib/galaxy/model/migrate/versions/0092_add_migrate_tools_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,974 Script lib/galaxy/model/migrate/versions/0092_add_migrate_tools_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,974 Loading script lib/galaxy/model/migrate/versions/0093_add_job_params_col.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,974 Script lib/galaxy/model/migrate/versions/0093_add_job_params_col.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,974 Loading script lib/galaxy/model/migrate/versions/0094_add_job_handler_col.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,974 Script lib/galaxy/model/migrate/versions/0094_add_job_handler_col.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,974 Loading script lib/galaxy/model/migrate/versions/0095_hda_subsets.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,974 Script lib/galaxy/model/migrate/versions/0095_hda_subsets.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,975 Loading script lib/galaxy/model/migrate/versions/0096_openid_provider.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,975 Script lib/galaxy/model/migrate/versions/0096_openid_provider.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,975 Loading script lib/galaxy/model/migrate/versions/0097_add_ctx_rev_column.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,975 Script lib/galaxy/model/migrate/versions/0097_add_ctx_rev_column.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,975 Loading script lib/galaxy/model/migrate/versions/0098_genome_index_tool_data_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,975 Script lib/galaxy/model/migrate/versions/0098_genome_index_tool_data_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,975 Loading script lib/galaxy/model/migrate/versions/0099_add_tool_dependency_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,975 Script lib/galaxy/model/migrate/versions/0099_add_tool_dependency_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,976 Loading script lib/galaxy/model/migrate/versions/0100_alter_tool_dependency_table_version_column.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,976 Script lib/galaxy/model/migrate/versions/0100_alter_tool_dependency_table_version_column.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,976 Loading script lib/galaxy/model/migrate/versions/0101_drop_installed_changeset_revision_column.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,976 Script lib/galaxy/model/migrate/versions/0101_drop_installed_changeset_revision_column.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,976 Loading script lib/galaxy/model/migrate/versions/0102_add_tool_dependency_status_columns.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,976 Script lib/galaxy/model/migrate/versions/0102_add_tool_dependency_status_columns.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,977 Loading script lib/galaxy/model/migrate/versions/0103_add_tool_shed_repository_status_columns.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,977 Script lib/galaxy/model/migrate/versions/0103_add_tool_shed_repository_status_columns.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,977 Loading script lib/galaxy/model/migrate/versions/0104_update_genome_downloader_job_parameters.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,978 Script lib/galaxy/model/migrate/versions/0104_update_genome_downloader_job_parameters.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,978 Loading script lib/galaxy/model/migrate/versions/0105_add_cleanup_event_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,978 Script lib/galaxy/model/migrate/versions/0105_add_cleanup_event_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,978 Loading script lib/galaxy/model/migrate/versions/0106_add_missing_indexes.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,978 Script lib/galaxy/model/migrate/versions/0106_add_missing_indexes.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,979 Loading script lib/galaxy/model/migrate/versions/0107_add_exit_code_to_job_and_task.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,979 Script lib/galaxy/model/migrate/versions/0107_add_exit_code_to_job_and_task.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,979 Loading script lib/galaxy/model/migrate/versions/0108_add_extended_metadata.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,979 Script lib/galaxy/model/migrate/versions/0108_add_extended_metadata.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,979 Loading script lib/galaxy/model/migrate/versions/0109_add_repository_dependency_tables.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,979 Script lib/galaxy/model/migrate/versions/0109_add_repository_dependency_tables.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,980 Loading script lib/galaxy/model/migrate/versions/0110_add_dataset_uuid.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,980 Script lib/galaxy/model/migrate/versions/0110_add_dataset_uuid.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,980 Loading script lib/galaxy/model/migrate/versions/0111_add_job_destinations.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,980 Script lib/galaxy/model/migrate/versions/0111_add_job_destinations.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,980 Loading script lib/galaxy/model/migrate/versions/0112_add_data_manager_history_association_and_data_manager_job_association_tables.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,980 Script lib/galaxy/model/migrate/versions/0112_add_data_manager_history_association_and_data_manager_job_association_tables.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,981 Loading script lib/galaxy/model/migrate/versions/0113_update_migrate_tools_table.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,981 Script lib/galaxy/model/migrate/versions/0113_update_migrate_tools_table.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,981 Loading script lib/galaxy/model/migrate/versions/0114_update_migrate_tools_table_again.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,981 Script lib/galaxy/model/migrate/versions/0114_update_migrate_tools_table_again.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,981 Loading script lib/galaxy/model/migrate/versions/0115_longer_user_password_field.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,981 Script lib/galaxy/model/migrate/versions/0115_longer_user_password_field.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,981 Loading script lib/galaxy/model/migrate/versions/0116_drop_update_available_col_add_tool_shed_status_col.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,982 Script lib/galaxy/model/migrate/versions/0116_drop_update_available_col_add_tool_shed_status_col.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,982 Loading script lib/galaxy/model/migrate/versions/0117_add_user_activation.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,982 Script lib/galaxy/model/migrate/versions/0117_add_user_activation.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,982 Loading script lib/galaxy/model/migrate/versions/0118_add_hda_extended_metadata.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,982 Script lib/galaxy/model/migrate/versions/0118_add_hda_extended_metadata.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,982 Loading script lib/galaxy/model/migrate/versions/0119_job_metrics.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,982 Script lib/galaxy/model/migrate/versions/0119_job_metrics.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,982 Loading script lib/galaxy/model/migrate/versions/0120_dataset_collections.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,982 Script lib/galaxy/model/migrate/versions/0120_dataset_collections.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,983 Loading script lib/galaxy/model/migrate/versions/0121_workflow_uuids.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,983 Script lib/galaxy/model/migrate/versions/0121_workflow_uuids.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,983 Loading script lib/galaxy/model/migrate/versions/0122_grow_mysql_blobs.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,983 Script lib/galaxy/model/migrate/versions/0122_grow_mysql_blobs.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,983 Loading script lib/galaxy/model/migrate/versions/0123_add_workflow_request_tables.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,983 Script lib/galaxy/model/migrate/versions/0123_add_workflow_request_tables.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,983 Loading script lib/galaxy/model/migrate/versions/0124_job_state_history.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,983 Script lib/galaxy/model/migrate/versions/0124_job_state_history.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,983 Loading script lib/galaxy/model/migrate/versions/0125_workflow_step_tracking.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,983 Script lib/galaxy/model/migrate/versions/0125_workflow_step_tracking.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,983 Loading script lib/galaxy/model/migrate/versions/0126_password_reset.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,984 Script lib/galaxy/model/migrate/versions/0126_password_reset.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,984 Loading script lib/galaxy/model/migrate/versions/0127_output_collection_adjustments.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,984 Script lib/galaxy/model/migrate/versions/0127_output_collection_adjustments.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,984 Loading script lib/galaxy/model/migrate/versions/0128_session_timeout.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,984 Script lib/galaxy/model/migrate/versions/0128_session_timeout.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,984 Loading script lib/galaxy/model/migrate/versions/0129_job_external_output_metadata_validity.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,984 Script lib/galaxy/model/migrate/versions/0129_job_external_output_metadata_validity.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,984 Loading script lib/galaxy/model/migrate/versions/0130_change_pref_datatype.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,984 Script lib/galaxy/model/migrate/versions/0130_change_pref_datatype.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,984 Loading script lib/galaxy/model/migrate/versions/0131_subworkflow_and_input_parameter_modules.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,984 Script lib/galaxy/model/migrate/versions/0131_subworkflow_and_input_parameter_modules.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,985 Loading script lib/galaxy/model/migrate/versions/0132_add_lastpasswordchange_to_user.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,985 Script lib/galaxy/model/migrate/versions/0132_add_lastpasswordchange_to_user.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,985 Loading script lib/galaxy/model/migrate/versions/0133_add_dependency_column_to_job.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,985 Script lib/galaxy/model/migrate/versions/0133_add_dependency_column_to_job.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,985 Loading script lib/galaxy/model/migrate/versions/0134_hda_set_deleted_if_purged.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:10,985 Script lib/galaxy/model/migrate/versions/0134_hda_set_deleted_if_purged.py loaded successfully
+migrate.versioning.repository DEBUG 2017-08-08 13:01:10,985 Repository lib/galaxy/model/migrate loaded successfully
+migrate.versioning.repository DEBUG 2017-08-08 13:01:10,985 Config: OrderedDict([('db_settings', OrderedDict([('__name__', 'db_settings'), ('repository_id', 'Galaxy'), ('version_table', 'migrate_version'), ('required_dbs', '[]')]))])
+galaxy.model.migrate.check INFO 2017-08-08 13:01:11,160 At database version 134
+migrate.versioning.repository DEBUG 2017-08-08 13:01:11,161 Loading repository lib/tool_shed/galaxy_install/migrate...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,162 Loading script lib/tool_shed/galaxy_install/migrate/versions/0001_tools.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,162 Script lib/tool_shed/galaxy_install/migrate/versions/0001_tools.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,163 Loading script lib/tool_shed/galaxy_install/migrate/versions/0002_tools.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,163 Script lib/tool_shed/galaxy_install/migrate/versions/0002_tools.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,163 Loading script lib/tool_shed/galaxy_install/migrate/versions/0003_tools.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,163 Script lib/tool_shed/galaxy_install/migrate/versions/0003_tools.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,163 Loading script lib/tool_shed/galaxy_install/migrate/versions/0004_tools.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,163 Script lib/tool_shed/galaxy_install/migrate/versions/0004_tools.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,163 Loading script lib/tool_shed/galaxy_install/migrate/versions/0005_tools.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,163 Script lib/tool_shed/galaxy_install/migrate/versions/0005_tools.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,163 Loading script lib/tool_shed/galaxy_install/migrate/versions/0006_tools.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,163 Script lib/tool_shed/galaxy_install/migrate/versions/0006_tools.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,164 Loading script lib/tool_shed/galaxy_install/migrate/versions/0007_tools.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,164 Script lib/tool_shed/galaxy_install/migrate/versions/0007_tools.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,164 Loading script lib/tool_shed/galaxy_install/migrate/versions/0008_tools.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,164 Script lib/tool_shed/galaxy_install/migrate/versions/0008_tools.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,164 Loading script lib/tool_shed/galaxy_install/migrate/versions/0009_tools.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,164 Script lib/tool_shed/galaxy_install/migrate/versions/0009_tools.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,164 Loading script lib/tool_shed/galaxy_install/migrate/versions/0010_tools.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,164 Script lib/tool_shed/galaxy_install/migrate/versions/0010_tools.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,164 Loading script lib/tool_shed/galaxy_install/migrate/versions/0011_tools.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,165 Script lib/tool_shed/galaxy_install/migrate/versions/0011_tools.py loaded successfully
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,165 Loading script lib/tool_shed/galaxy_install/migrate/versions/0012_tools.py...
+migrate.versioning.script.base DEBUG 2017-08-08 13:01:11,165 Script lib/tool_shed/galaxy_install/migrate/versions/0012_tools.py loaded successfully
+migrate.versioning.repository DEBUG 2017-08-08 13:01:11,165 Repository lib/tool_shed/galaxy_install/migrate loaded successfully
+migrate.versioning.repository DEBUG 2017-08-08 13:01:11,165 Config: OrderedDict([('db_settings', OrderedDict([('__name__', 'db_settings'), ('repository_id', 'GalaxyTools'), ('version_table', 'migrate_tools'), ('required_dbs', '[]')]))])
+tool_shed.galaxy_install.migrate.check INFO 2017-08-08 13:01:11,264 At migrate_tools version 12
+galaxy.config INFO 2017-08-08 13:01:11,319 Install database targetting Galaxy's database configuration.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,443 Loading datatypes from ./config/datatypes_conf.xml.sample
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,445 Retrieved datatype module galaxy.datatypes.binary:Ab1 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,447 Retrieved datatype module galaxy.datatypes.assembly:Amos from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,448 Retrieved datatype module galaxy.datatypes.text:Arff from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,448 Retrieved datatype module galaxy.datatypes.data:GenericAsn1 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,449 Retrieved datatype module galaxy.datatypes.binary:GenericAsn1Binary from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,449 Retrieved datatype module galaxy.datatypes.sequence:Axt from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,449 Retrieved datatype module galaxy.datatypes.tabular:FeatureLocationIndex from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,449 Retrieved datatype module galaxy.datatypes.binary:Bam from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,449 Retrieved datatype module galaxy.datatypes.binary:CRAM from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,450 Retrieved datatype module galaxy.datatypes.interval:Bed from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,450 Retrieved datatype module galaxy.datatypes.interval:BedGraph from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,450 Retrieved datatype module galaxy.datatypes.interval:BedStrict from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,450 Retrieved datatype module galaxy.datatypes.interval:Bed6 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,450 Retrieved datatype module galaxy.datatypes.interval:Bed12 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,451 Retrieved datatype module galaxy.datatypes.chrominfo:ChromInfo from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,451 Retrieved datatype module galaxy.datatypes.binary:Binary from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,451 Retrieved datatype module galaxy.datatypes.binary:BigBed from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,452 Retrieved datatype module galaxy.datatypes.binary:BigWig from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,452 Retrieved datatype module galaxy.datatypes.binary:Binary from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,452 Retrieved datatype module galaxy.datatypes.interval:ChromatinInteractions from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,452 Retrieved datatype module galaxy.datatypes.tabular:CSV from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,452 Retrieved datatype module galaxy.datatypes.tabular:TSV from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,453 Retrieved datatype module galaxy.datatypes.interval:CustomTrack from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,454 Retrieved datatype module galaxy.datatypes.ngsindex:BowtieColorIndex from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,454 Retrieved datatype module galaxy.datatypes.ngsindex:BowtieBaseIndex from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,454 Retrieved datatype module galaxy.datatypes.sequence:csFasta from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,455 Retrieved datatype module galaxy.datatypes.data:Data from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,455 Retrieved datatype module galaxy.datatypes.text:Json from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,455 Retrieved datatype module galaxy.datatypes.text:Json from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,456 Retrieved datatype module galaxy.datatypes.sequence:DotBracket from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,456 Retrieved datatype module galaxy.datatypes.tabular:Tabular from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,457 Retrieved datatype module galaxy.datatypes.sequence:Fasta from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,457 Retrieved datatype module galaxy.datatypes.sequence:Fastq from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,458 Retrieved datatype module galaxy.datatypes.sequence:FastqSanger from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,458 Retrieved datatype module galaxy.datatypes.sequence:FastqSolexa from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,458 Retrieved datatype module galaxy.datatypes.sequence:FastqCSSanger from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,459 Retrieved datatype module galaxy.datatypes.sequence:FastqIllumina from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,459 Retrieved datatype module galaxy.datatypes.sequence:FastqGz from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,459 Retrieved datatype module galaxy.datatypes.sequence:FastqSangerGz from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,460 Retrieved datatype module galaxy.datatypes.sequence:FastqSolexaGz from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,460 Retrieved datatype module galaxy.datatypes.sequence:FastqCSSangerGz from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,460 Retrieved datatype module galaxy.datatypes.sequence:FastqIlluminaGz from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,461 Retrieved datatype module galaxy.datatypes.sequence:FastqBz2 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,461 Retrieved datatype module galaxy.datatypes.sequence:FastqSangerBz2 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,461 Retrieved datatype module galaxy.datatypes.sequence:FastqSolexaBz2 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,462 Retrieved datatype module galaxy.datatypes.sequence:FastqCSSangerBz2 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,462 Retrieved datatype module galaxy.datatypes.sequence:FastqIlluminaBz2 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,462 Retrieved datatype module galaxy.datatypes.sequence:SequenceSplitLocations from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,462 Retrieved datatype module galaxy.datatypes.tabular:Eland from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,462 Retrieved datatype module galaxy.datatypes.tabular:ElandMulti from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,462 Retrieved datatype module galaxy.datatypes.tracks:GeneTrack from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,462 Retrieved datatype module galaxy.datatypes.interval:Gff from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,463 Retrieved datatype module galaxy.datatypes.interval:Gff3 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,463 Retrieved datatype module galaxy.datatypes.images:Gif from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,463 Retrieved datatype module galaxy.datatypes.images:Gmaj from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,463 Retrieved datatype module galaxy.datatypes.interval:Gtf from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,463 Retrieved datatype module galaxy.datatypes.binary:Binary from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,464 Retrieved datatype module galaxy.datatypes.binary:H5 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,464 Retrieved datatype module galaxy.datatypes.text:Html from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,464 Retrieved datatype module galaxy.datatypes.interval:Interval from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,464 Retrieved datatype module galaxy.datatypes.tabular:Tabular from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,465 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,465 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,465 Retrieved datatype module galaxy.datatypes.tabular:Tabular from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,466 Retrieved datatype module galaxy.datatypes.tabular:Tabular from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,466 Retrieved datatype module galaxy.datatypes.tabular:Tabular from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,466 Retrieved datatype module galaxy.datatypes.images:Jpg from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,466 Retrieved datatype module galaxy.datatypes.images:Tiff from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,467 Retrieved datatype module galaxy.datatypes.images:Tiff from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,467 Retrieved datatype module galaxy.datatypes.images:Tiff from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,467 Retrieved datatype module galaxy.datatypes.images:Tiff from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,468 Retrieved datatype module galaxy.datatypes.images:Tiff from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,468 Retrieved datatype module galaxy.datatypes.images:Tiff from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,468 Retrieved datatype module galaxy.datatypes.images:Tiff from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,468 Retrieved datatype module galaxy.datatypes.images:Tiff from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,469 Retrieved datatype module galaxy.datatypes.images:Hamamatsu from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,469 Retrieved datatype module galaxy.datatypes.images:Hamamatsu from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,470 Retrieved datatype module galaxy.datatypes.images:Hamamatsu from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,470 Retrieved datatype module galaxy.datatypes.images:Mirax from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,470 Retrieved datatype module galaxy.datatypes.images:Sakura from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,470 Retrieved datatype module galaxy.datatypes.images:Bmp from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,471 Retrieved datatype module galaxy.datatypes.images:Im from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,471 Retrieved datatype module galaxy.datatypes.images:Pcd from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,471 Retrieved datatype module galaxy.datatypes.images:Pcx from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,471 Retrieved datatype module galaxy.datatypes.images:Ppm from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,472 Retrieved datatype module galaxy.datatypes.images:Psd from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,472 Retrieved datatype module galaxy.datatypes.images:Xbm from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,472 Retrieved datatype module galaxy.datatypes.images:Xpm from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,472 Retrieved datatype module galaxy.datatypes.images:Rgb from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,472 Retrieved datatype module galaxy.datatypes.images:Pbm from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,472 Retrieved datatype module galaxy.datatypes.images:Pgm from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,473 Retrieved datatype module galaxy.datatypes.images:Nrrd from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,473 Retrieved datatype module galaxy.datatypes.images:Nrrd from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,474 Retrieved datatype module galaxy.datatypes.sequence:RNADotPlotMatrix from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,474 Retrieved datatype module galaxy.datatypes.binary:CompressedZipArchive from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,474 Retrieved datatype module galaxy.datatypes.binary:CompressedArchive from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,480 Retrieved datatype module galaxy.datatypes.proteomics:PepXml from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,481 Retrieved datatype module galaxy.datatypes.proteomics:PepXml from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,481 Retrieved datatype module galaxy.datatypes.proteomics:PepXml from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,482 Retrieved datatype module galaxy.datatypes.proteomics:PepXml from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,482 Retrieved datatype module galaxy.datatypes.proteomics:ProtXML from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,483 Retrieved datatype module galaxy.datatypes.xml:GenericXml from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,483 Retrieved datatype module galaxy.datatypes.xml:GenericXml from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,484 Retrieved datatype module galaxy.datatypes.proteomics:PepXmlReport from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,484 Retrieved datatype module galaxy.datatypes.proteomics:ProtXmlReport from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,484 Retrieved datatype module galaxy.datatypes.proteomics:MascotDat from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,485 Retrieved datatype module galaxy.datatypes.proteomics:MzIdentML from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,485 Retrieved datatype module galaxy.datatypes.proteomics:IdXML from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,485 Retrieved datatype module galaxy.datatypes.proteomics:TandemXML from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,485 Retrieved datatype module galaxy.datatypes.proteomics:ThermoRAW from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,485 Retrieved datatype module galaxy.datatypes.proteomics:MzML from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,485 Retrieved datatype module galaxy.datatypes.proteomics:Mgf from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,486 Retrieved datatype module galaxy.datatypes.proteomics:Wiff from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,486 Retrieved datatype module galaxy.datatypes.proteomics:MzXML from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,486 Retrieved datatype module galaxy.datatypes.proteomics:MzData from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,486 Retrieved datatype module galaxy.datatypes.proteomics:Ms2 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,486 Retrieved datatype module galaxy.datatypes.proteomics:MzQuantML from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,487 Retrieved datatype module galaxy.datatypes.binary:MzSQlite from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,487 Retrieved datatype module galaxy.datatypes.proteomics:TraML from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,487 Retrieved datatype module galaxy.datatypes.proteomics:FeatureXML from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,487 Retrieved datatype module galaxy.datatypes.proteomics:ConsensusXML from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,487 Retrieved datatype module galaxy.datatypes.proteomics:UniProtXML from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,487 Retrieved datatype module galaxy.datatypes.proteomics:Msp from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,488 Retrieved datatype module galaxy.datatypes.proteomics:SPLibNoIndex from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,488 Retrieved datatype module galaxy.datatypes.proteomics:SPLib from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,488 Retrieved datatype module galaxy.datatypes.proteomics:XHunterAslFormat from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,489 Retrieved datatype module galaxy.datatypes.binary:IdpDB from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,489 Retrieved datatype module galaxy.datatypes.proteomics:Sf3 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,489 Retrieved datatype module galaxy.datatypes.binary:Binary from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,490 Retrieved datatype module galaxy.datatypes.tabular:ConnectivityTable from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,490 Retrieved datatype module galaxy.datatypes.binary:SearchGuiArchive from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,490 Retrieved datatype module galaxy.datatypes.binary:CompressedArchive from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,490 Retrieved datatype module galaxy.datatypes.tabular:Tabular from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,491 Retrieved datatype module galaxy.datatypes.xml:GenericXml from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,491 Retrieved datatype module galaxy.datatypes.tabular:Tabular from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,491 Retrieved datatype module galaxy.datatypes.tabular:Tabular from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,491 Retrieved datatype module galaxy.datatypes.binary:NetCDF from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,492 Retrieved datatype module galaxy.datatypes.images:Eps from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,492 Retrieved datatype module galaxy.datatypes.images:Rast from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,492 Retrieved datatype module galaxy.datatypes.images:Laj from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,492 Retrieved datatype module galaxy.datatypes.sequence:Lav from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,495 Retrieved datatype module galaxy.datatypes.sequence:Maf from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,496 Retrieved datatype module galaxy.datatypes.sequence:MafCustomTrack from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,496 Retrieved datatype module galaxy.datatypes.interval:ENCODEPeak from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,497 Retrieved datatype module galaxy.datatypes.images:Pdf from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,497 Retrieved datatype module galaxy.datatypes.tabular:Pileup from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,498 Retrieved datatype module galaxy.datatypes.text:Obo from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,498 Retrieved datatype module galaxy.datatypes.xml:Owl from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,498 Retrieved datatype module galaxy.datatypes.images:Png from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,499 Retrieved datatype module galaxy.datatypes.qualityscore:QualityScore from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,500 Retrieved datatype module galaxy.datatypes.qualityscore:QualityScoreSolexa from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,500 Retrieved datatype module galaxy.datatypes.qualityscore:QualityScoreIllumina from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,500 Retrieved datatype module galaxy.datatypes.qualityscore:QualityScoreSOLiD from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,501 Retrieved datatype module galaxy.datatypes.qualityscore:QualityScore454 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,501 Roadmaps is not lower case, that could cause troubles in the future.             Please change it to lower case
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,501 Retrieved datatype module galaxy.datatypes.assembly:Roadmaps from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,502 Retrieved datatype module galaxy.datatypes.tabular:Sam from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,502 Retrieved datatype module galaxy.datatypes.binary:Scf from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,502 Sequences is not lower case, that could cause troubles in the future.             Please change it to lower case
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,502 Retrieved datatype module galaxy.datatypes.assembly:Sequences from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,503 Retrieved datatype module galaxy.datatypes.text:SnpEffDb from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,503 Retrieved datatype module galaxy.datatypes.text:SnpSiftDbNSFP from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,503 Retrieved datatype module galaxy.datatypes.tabular:Tabular from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,504 Retrieved datatype module galaxy.datatypes.binary:Sff from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,505 Retrieved datatype module galaxy.datatypes.binary:Sra from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,505 Retrieved datatype module galaxy.datatypes.xml:GenericXml from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,505 Retrieved datatype module galaxy.datatypes.tabular:Taxonomy from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,505 Retrieved datatype module galaxy.datatypes.tabular:Tabular from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,506 Retrieved datatype module galaxy.datatypes.binary:TwoBit from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,506 Retrieved datatype module galaxy.datatypes.binary:SQlite from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,506 Retrieved datatype module galaxy.datatypes.binary:GeminiSQLite from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,506 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,506 Retrieved datatype module galaxy.datatypes.data:LineCount from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,506 Retrieved datatype module galaxy.datatypes.xml:MEMEXml from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,506 Retrieved datatype module galaxy.datatypes.xml:CisML from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,507 Retrieved datatype module galaxy.datatypes.xml:GenericXml from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,507 Retrieved datatype module galaxy.datatypes.tabular:Vcf from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,507 Retrieved datatype module galaxy.datatypes.binary:Bcf from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,507 Retrieved datatype module galaxy.datatypes.binary:Binary from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,508 Retrieved datatype module galaxy.datatypes.assembly:Velvet from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,508 Retrieved datatype module galaxy.datatypes.interval:Wiggle from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,508 Retrieved datatype module galaxy.datatypes.binary:Binary from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,508 Retrieved datatype module galaxy.datatypes.binary:Binary from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,509 Retrieved datatype module galaxy.datatypes.binary:Binary from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,672 Retrieved datatype module galaxy.datatypes.xml:Phyloxml from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,672 Retrieved datatype module galaxy.datatypes.data:Newick from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,673 Retrieved datatype module galaxy.datatypes.data:Nexus from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,678 Retrieved datatype module galaxy.datatypes.genetics:Affybatch from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,679 Retrieved datatype module galaxy.datatypes.genetics:Eigenstratgeno from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,679 Retrieved datatype module galaxy.datatypes.genetics:Eigenstratpca from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,679 Retrieved datatype module galaxy.datatypes.genetics:Eset from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,679 Retrieved datatype module galaxy.datatypes.genetics:Fped from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,679 Retrieved datatype module galaxy.datatypes.genetics:Fphe from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,680 Retrieved datatype module galaxy.datatypes.genetics:GenomeGraphs from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,680 Retrieved datatype module galaxy.datatypes.genetics:ldIndep from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,680 Retrieved datatype module galaxy.datatypes.genetics:MAlist from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,680 Retrieved datatype module galaxy.datatypes.genetics:Lped from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,680 Retrieved datatype module galaxy.datatypes.genetics:Pbed from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,681 Retrieved datatype module galaxy.datatypes.genetics:Pheno from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,681 Retrieved datatype module galaxy.datatypes.genetics:Pphe from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,681 Retrieved datatype module galaxy.datatypes.genetics:RexpBase from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,681 Retrieved datatype module galaxy.datatypes.genetics:Rgenetics from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,681 Retrieved datatype module galaxy.datatypes.genetics:Snptest from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,682 Retrieved datatype module galaxy.datatypes.genetics:SNPMatrix from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,682 Retrieved datatype module galaxy.datatypes.tabular:Tabular from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,682 Retrieved datatype module galaxy.datatypes.text:Ipynb from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,682 Retrieved datatype module galaxy.datatypes.text:Json from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,684 Retrieved datatype module galaxy.datatypes.graph:Xgmml from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,684 Retrieved datatype module galaxy.datatypes.graph:Sif from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,685 Retrieved datatype module galaxy.datatypes.triples:Triples from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,685 Retrieved datatype module galaxy.datatypes.triples:HDT from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,685 Retrieved datatype module galaxy.datatypes.triples:NTriples from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,685 Retrieved datatype module galaxy.datatypes.triples:N3 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,686 Retrieved datatype module galaxy.datatypes.triples:Turtle from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,686 Retrieved datatype module galaxy.datatypes.triples:Rdf from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,686 Retrieved datatype module galaxy.datatypes.triples:Jsonld from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,686 Retrieved datatype module galaxy.datatypes.binary:Xlsx from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,686 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,687 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,687 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,688 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,688 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,688 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,689 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,689 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,690 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,690 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,691 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,691 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,691 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,692 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,692 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,693 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,693 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,694 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,695 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,695 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,696 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,696 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,697 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,698 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,698 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,699 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,699 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,699 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,699 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,700 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,700 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,701 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,701 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,702 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,702 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,702 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,703 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,703 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,703 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,704 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,704 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,704 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,705 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,705 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,705 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,706 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,706 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,707 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,707 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,707 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,708 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,708 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,708 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,708 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,709 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,709 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,709 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,709 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,710 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,710 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,711 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,711 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,711 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,712 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,712 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,712 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,713 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,713 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,713 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,713 Retrieved datatype module galaxy.datatypes.sequence:Genbank from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,714 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,714 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,714 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,714 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,714 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,715 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,715 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,715 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,716 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,716 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,716 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,716 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,716 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,717 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,717 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,717 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,717 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,718 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,718 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,718 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,718 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,719 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,719 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,721 Retrieved datatype module galaxy.datatypes.msa:Hmmer2 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,721 Retrieved datatype module galaxy.datatypes.msa:Hmmer3 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,721 Retrieved datatype module galaxy.datatypes.msa:Stockholm_1_0 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,721 Retrieved datatype module galaxy.datatypes.msa:MauveXmfa from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,722 Retrieved datatype module galaxy.datatypes.binary:Cel from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,722 Retrieved datatype module galaxy.datatypes.binary:RData from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,722 Retrieved datatype module galaxy.datatypes.binary:OxliCountGraph from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,722 Retrieved datatype module galaxy.datatypes.binary:OxliNodeGraph from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,722 Retrieved datatype module galaxy.datatypes.binary:OxliTagSet from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,723 Retrieved datatype module galaxy.datatypes.binary:OxliStopTags from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,723 Retrieved datatype module galaxy.datatypes.binary:OxliSubset from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,723 Retrieved datatype module galaxy.datatypes.binary:OxliGraphLabels from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,724 Retrieved datatype module galaxy.datatypes.constructive_solid_geometry:STL from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,725 Retrieved datatype module galaxy.datatypes.constructive_solid_geometry:PlyAscii from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,725 Retrieved datatype module galaxy.datatypes.constructive_solid_geometry:PlyBinary from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,725 Retrieved datatype module galaxy.datatypes.constructive_solid_geometry:VtkAscii from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,725 Retrieved datatype module galaxy.datatypes.constructive_solid_geometry:VtkBinary from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,725 Retrieved datatype module galaxy.datatypes.text:Biom1 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,726 Retrieved datatype module galaxy.datatypes.interval:ScIdx from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,730 Retrieved datatype module galaxy.datatypes.molecules:SMILES from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,730 Retrieved datatype module galaxy.datatypes.molecules:SDF from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,734 Retrieved datatype module galaxy.datatypes.molecules:InChI from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,735 Retrieved datatype module galaxy.datatypes.molecules:MOL from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,735 Retrieved datatype module galaxy.datatypes.molecules:MOL2 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,735 Retrieved datatype module galaxy.datatypes.molecules:CML from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,735 Retrieved datatype module galaxy.datatypes.molecules:FPS from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,735 Retrieved datatype module galaxy.datatypes.molecules:OBFS from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,736 Retrieved datatype module galaxy.datatypes.molecules:PHAR from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,736 Retrieved datatype module galaxy.datatypes.molecules:PDB from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,739 Retrieved datatype module galaxy.datatypes.mothur:Otu from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,739 Retrieved datatype module galaxy.datatypes.mothur:Otu from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,740 Retrieved datatype module galaxy.datatypes.mothur:Sabund from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,740 Retrieved datatype module galaxy.datatypes.mothur:Sabund from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,740 Retrieved datatype module galaxy.datatypes.mothur:GroupAbund from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,741 Retrieved datatype module galaxy.datatypes.mothur:GroupAbund from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,741 Retrieved datatype module galaxy.datatypes.mothur:Names from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,741 Retrieved datatype module galaxy.datatypes.mothur:Group from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,741 Retrieved datatype module galaxy.datatypes.mothur:Summary from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,741 Retrieved datatype module galaxy.datatypes.mothur:Group from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,742 Retrieved datatype module galaxy.datatypes.mothur:Oligos from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,742 Retrieved datatype module galaxy.datatypes.sequence:Fasta from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,742 Retrieved datatype module galaxy.datatypes.mothur:AccNos from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,742 Retrieved datatype module galaxy.datatypes.mothur:AccNos from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,742 Retrieved datatype module galaxy.datatypes.tabular:Tabular from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,743 Retrieved datatype module galaxy.datatypes.mothur:SecondaryStructureMap from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,743 Retrieved datatype module galaxy.datatypes.mothur:AlignCheck from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,743 Retrieved datatype module galaxy.datatypes.mothur:AlignReport from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,743 Retrieved datatype module galaxy.datatypes.mothur:LaneMask from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,744 Retrieved datatype module galaxy.datatypes.mothur:DistanceMatrix from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,744 Retrieved datatype module galaxy.datatypes.data:Text from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,744 Retrieved datatype module galaxy.datatypes.mothur:PairwiseDistanceMatrix from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,744 Retrieved datatype module galaxy.datatypes.mothur:SquareDistanceMatrix from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,745 Retrieved datatype module galaxy.datatypes.mothur:LowerTriangleDistanceMatrix from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,745 Retrieved datatype module galaxy.datatypes.mothur:RefTaxonomy from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,745 Retrieved datatype module galaxy.datatypes.mothur:RefTaxonomy from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,746 Retrieved datatype module galaxy.datatypes.mothur:RefTaxonomy from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,746 Retrieved datatype module galaxy.datatypes.mothur:ConsensusTaxonomy from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,746 Retrieved datatype module galaxy.datatypes.mothur:TaxonomySummary from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,746 Retrieved datatype module galaxy.datatypes.mothur:Frequency from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,746 Retrieved datatype module galaxy.datatypes.mothur:Quantile from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,747 Retrieved datatype module galaxy.datatypes.mothur:Quantile from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,747 Retrieved datatype module galaxy.datatypes.mothur:Quantile from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,747 Retrieved datatype module galaxy.datatypes.mothur:Quantile from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,747 Retrieved datatype module galaxy.datatypes.mothur:Axes from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,748 Retrieved datatype module galaxy.datatypes.mothur:SffFlow from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,748 Retrieved datatype module galaxy.datatypes.mothur:CountTable from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,748 Retrieved datatype module galaxy.datatypes.neo4j:Neo4jDB from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,749 Retrieved datatype module galaxy.datatypes.tracks:UCSCTrackHub from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,750 Retrieved datatype module galaxy.datatypes.blast:BlastXml from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,750 Retrieved datatype module galaxy.datatypes.blast:BlastNucDb from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,751 Retrieved datatype module galaxy.datatypes.blast:BlastProtDb from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,751 Retrieved datatype module galaxy.datatypes.blast:BlastDomainDb from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,751 Retrieved datatype module galaxy.datatypes.data:GenericAsn1 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,751 Retrieved datatype module galaxy.datatypes.binary:GenericAsn1Binary from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,752 Retrieved datatype module galaxy.datatypes.data:GenericAsn1 from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,752 Retrieved datatype module galaxy.datatypes.text:PlantTribesMultipleSequenceAlignment from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,752 Retrieved datatype module galaxy.datatypes.text:PlantTribesOrtho from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,752 Retrieved datatype module galaxy.datatypes.text:PlantTribesOrthoCodingSequence from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,752 Retrieved datatype module galaxy.datatypes.text:PlantTribesPhylogeneticTree from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,753 Retrieved datatype module galaxy.datatypes.text:Smat from the datatype registry.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,753 Loaded sniffer for datatype 'galaxy.datatypes.text:Smat'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,753 Loaded sniffer for datatype 'galaxy.datatypes.mothur:Sabund'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,753 Loaded sniffer for datatype 'galaxy.datatypes.mothur:Otu'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,753 Loaded sniffer for datatype 'galaxy.datatypes.mothur:GroupAbund'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,753 Loaded sniffer for datatype 'galaxy.datatypes.mothur:SecondaryStructureMap'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,754 Loaded sniffer for datatype 'galaxy.datatypes.mothur:LowerTriangleDistanceMatrix'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,754 Loaded sniffer for datatype 'galaxy.datatypes.mothur:SquareDistanceMatrix'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,754 Loaded sniffer for datatype 'galaxy.datatypes.mothur:PairwiseDistanceMatrix'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,754 Loaded sniffer for datatype 'galaxy.datatypes.mothur:Oligos'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,754 Loaded sniffer for datatype 'galaxy.datatypes.mothur:Quantile'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,754 Loaded sniffer for datatype 'galaxy.datatypes.mothur:Frequency'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,754 Loaded sniffer for datatype 'galaxy.datatypes.mothur:LaneMask'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,754 Loaded sniffer for datatype 'galaxy.datatypes.mothur:RefTaxonomy'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,754 Loaded sniffer for datatype 'galaxy.datatypes.mothur:Axes'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,755 Loaded sniffer for datatype 'galaxy.datatypes.constructive_solid_geometry:PlyAscii'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,755 Loaded sniffer for datatype 'galaxy.datatypes.constructive_solid_geometry:PlyBinary'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,755 Loaded sniffer for datatype 'galaxy.datatypes.constructive_solid_geometry:VtkAscii'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,755 Loaded sniffer for datatype 'galaxy.datatypes.constructive_solid_geometry:VtkBinary'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,755 Loaded sniffer for datatype 'galaxy.datatypes.interval:ScIdx'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,755 Loaded sniffer for datatype 'galaxy.datatypes.tabular:Vcf'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,755 Loaded sniffer for datatype 'galaxy.datatypes.binary:TwoBit'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,755 Loaded sniffer for datatype 'galaxy.datatypes.binary:GeminiSQLite'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,756 Loaded sniffer for datatype 'galaxy.datatypes.binary:MzSQlite'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,756 Loaded sniffer for datatype 'galaxy.datatypes.binary:IdpDB'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,756 Loaded sniffer for datatype 'galaxy.datatypes.binary:SQlite'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,756 Loaded sniffer for datatype 'galaxy.datatypes.binary:H5'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,756 Loaded sniffer for datatype 'galaxy.datatypes.binary:Bam'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,756 Loaded sniffer for datatype 'galaxy.datatypes.binary:CRAM'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,756 Loaded sniffer for datatype 'galaxy.datatypes.binary:Sff'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,756 Loaded sniffer for datatype 'galaxy.datatypes.binary:Sra'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,757 Loaded sniffer for datatype 'galaxy.datatypes.binary:NetCDF'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,757 Loaded sniffer for datatype 'galaxy.datatypes.binary:DMND'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,757 Loaded sniffer for datatype 'galaxy.datatypes.triples:Rdf'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,757 Loaded sniffer for datatype 'galaxy.datatypes.blast:BlastXml'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,757 Loaded sniffer for datatype 'galaxy.datatypes.xml:Phyloxml'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,757 Loaded sniffer for datatype 'galaxy.datatypes.xml:Owl'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,757 Loaded sniffer for datatype 'galaxy.datatypes.proteomics:MzML'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,757 Loaded sniffer for datatype 'galaxy.datatypes.proteomics:TandemXML'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,757 Loaded sniffer for datatype 'galaxy.datatypes.proteomics:PepXml'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,758 Loaded sniffer for datatype 'galaxy.datatypes.proteomics:Mgf'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,758 Loaded sniffer for datatype 'galaxy.datatypes.proteomics:ProtXML'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,758 Loaded sniffer for datatype 'galaxy.datatypes.proteomics:MzXML'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,758 Loaded sniffer for datatype 'galaxy.datatypes.proteomics:MzData'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,758 Loaded sniffer for datatype 'galaxy.datatypes.proteomics:TraML'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,758 Loaded sniffer for datatype 'galaxy.datatypes.proteomics:MzIdentML'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,758 Loaded sniffer for datatype 'galaxy.datatypes.proteomics:MzQuantML'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,758 Loaded sniffer for datatype 'galaxy.datatypes.proteomics:UniProtXML'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,759 Loaded sniffer for datatype 'galaxy.datatypes.proteomics:Msp'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,759 Loaded sniffer for datatype 'galaxy.datatypes.proteomics:SPLib'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,759 Loaded sniffer for datatype 'galaxy.datatypes.proteomics:ThermoRAW'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,759 Loaded sniffer for datatype 'galaxy.datatypes.molecules:CML'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,759 Loaded sniffer for datatype 'galaxy.datatypes.xml:GenericXml'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,759 Loaded sniffer for datatype 'galaxy.datatypes.triples:HDT'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,759 Loaded sniffer for datatype 'galaxy.datatypes.triples:Turtle'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,759 Loaded sniffer for datatype 'galaxy.datatypes.triples:NTriples'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,760 Loaded sniffer for datatype 'galaxy.datatypes.triples:Jsonld'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,760 Loaded sniffer for datatype 'galaxy.datatypes.sequence:Maf'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,760 Loaded sniffer for datatype 'galaxy.datatypes.sequence:Lav'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,760 Loaded sniffer for datatype 'galaxy.datatypes.sequence:csFasta'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,760 Loaded sniffer for datatype 'galaxy.datatypes.qualityscore:QualityScoreSOLiD'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,760 Loaded sniffer for datatype 'galaxy.datatypes.qualityscore:QualityScore454'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,761 Loaded sniffer for datatype 'galaxy.datatypes.molecules:SDF'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,761 Loaded sniffer for datatype 'galaxy.datatypes.molecules:PDB'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,761 Loaded sniffer for datatype 'galaxy.datatypes.molecules:MOL2'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,761 Loaded sniffer for datatype 'galaxy.datatypes.molecules:InChI'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,761 Loaded sniffer for datatype 'galaxy.datatypes.molecules:FPS'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,761 Loaded sniffer for datatype 'galaxy.datatypes.sequence:Fasta'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,761 Loaded sniffer for datatype 'galaxy.datatypes.sequence:Fastq'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,761 Loaded sniffer for datatype 'galaxy.datatypes.sequence:FastqGz'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,762 Loaded sniffer for datatype 'galaxy.datatypes.sequence:FastqBz2'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,762 Loaded sniffer for datatype 'galaxy.datatypes.interval:Wiggle'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,762 Loaded sniffer for datatype 'galaxy.datatypes.text:Html'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,762 Loaded sniffer for datatype 'galaxy.datatypes.images:Pdf'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,762 Loaded sniffer for datatype 'galaxy.datatypes.sequence:Axt'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,762 Loaded sniffer for datatype 'galaxy.datatypes.sequence:Genbank'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,763 Loaded sniffer for datatype 'galaxy.datatypes.interval:Bed'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,763 Loaded sniffer for datatype 'galaxy.datatypes.interval:CustomTrack'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,763 Loaded sniffer for datatype 'galaxy.datatypes.interval:Gtf'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,763 Loaded sniffer for datatype 'galaxy.datatypes.interval:Gff'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,763 Loaded sniffer for datatype 'galaxy.datatypes.interval:Gff3'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,763 Loaded sniffer for datatype 'galaxy.datatypes.tabular:Pileup'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,763 Loaded sniffer for datatype 'galaxy.datatypes.interval:Interval'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,764 Loaded sniffer for datatype 'galaxy.datatypes.tabular:Sam'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,764 Loaded sniffer for datatype 'galaxy.datatypes.data:Newick'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,764 Loaded sniffer for datatype 'galaxy.datatypes.data:Nexus'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,764 Loaded sniffer for datatype 'galaxy.datatypes.text:Obo'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,764 Loaded sniffer for datatype 'galaxy.datatypes.text:Arff'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,764 Loaded sniffer for datatype 'galaxy.datatypes.text:Ipynb'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,764 Loaded sniffer for datatype 'galaxy.datatypes.text:Biom1'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,765 Loaded sniffer for datatype 'galaxy.datatypes.text:Json'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,765 Loaded sniffer for datatype 'galaxy.datatypes.sequence:RNADotPlotMatrix'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,765 Loaded sniffer for datatype 'galaxy.datatypes.sequence:DotBracket'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,765 Loaded sniffer for datatype 'galaxy.datatypes.tabular:ConnectivityTable'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,765 Loaded sniffer for datatype 'galaxy.datatypes.tabular:CSV'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,765 Loaded sniffer for datatype 'galaxy.datatypes.tabular:TSV'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,765 Loaded sniffer for datatype 'galaxy.datatypes.msa:Hmmer2'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,765 Loaded sniffer for datatype 'galaxy.datatypes.msa:Hmmer3'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,766 Loaded sniffer for datatype 'galaxy.datatypes.msa:Stockholm_1_0'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,766 Loaded sniffer for datatype 'galaxy.datatypes.msa:MauveXmfa'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,766 Loaded sniffer for datatype 'galaxy.datatypes.binary:Cel'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,766 Loaded sniffer for datatype 'galaxy.datatypes.binary:RData'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,766 Loaded sniffer for datatype 'galaxy.datatypes.images:Jpg'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,766 Loaded sniffer for datatype 'galaxy.datatypes.images:Png'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,766 Loaded sniffer for datatype 'galaxy.datatypes.images:Tiff'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,767 Loaded sniffer for datatype 'galaxy.datatypes.images:Bmp'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,767 Loaded sniffer for datatype 'galaxy.datatypes.images:Gif'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,767 Loaded sniffer for datatype 'galaxy.datatypes.images:Im'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,767 Loaded sniffer for datatype 'galaxy.datatypes.images:Pcd'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,767 Loaded sniffer for datatype 'galaxy.datatypes.images:Pcx'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,768 Loaded sniffer for datatype 'galaxy.datatypes.images:Ppm'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,768 Loaded sniffer for datatype 'galaxy.datatypes.images:Psd'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,768 Loaded sniffer for datatype 'galaxy.datatypes.images:Xbm'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,768 Loaded sniffer for datatype 'galaxy.datatypes.images:Rgb'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,768 Loaded sniffer for datatype 'galaxy.datatypes.images:Pbm'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,768 Loaded sniffer for datatype 'galaxy.datatypes.images:Pgm'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,768 Loaded sniffer for datatype 'galaxy.datatypes.images:Xpm'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,769 Loaded sniffer for datatype 'galaxy.datatypes.images:Eps'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,769 Loaded sniffer for datatype 'galaxy.datatypes.images:Rast'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,769 Loaded sniffer for datatype 'galaxy.datatypes.binary:OxliCountGraph'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,769 Loaded sniffer for datatype 'galaxy.datatypes.binary:OxliNodeGraph'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,769 Loaded sniffer for datatype 'galaxy.datatypes.binary:OxliTagSet'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,769 Loaded sniffer for datatype 'galaxy.datatypes.binary:OxliStopTags'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,770 Loaded sniffer for datatype 'galaxy.datatypes.binary:OxliSubset'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,770 Loaded sniffer for datatype 'galaxy.datatypes.binary:OxliGraphLabels'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,778 Build site file [tool-data/shared/ucsc/ucsc_build_sites.txt] not found using sample [tool-data/shared/ucsc/ucsc_build_sites.txt.sample].
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,778 Loaded build site 'ucsc': tool-data/shared/ucsc/ucsc_build_sites.txt.sample with display sites: ['main', 'test', 'archaea', 'ucla']
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,779 Loaded build site 'gbrowse': tool-data/shared/gbrowse/gbrowse_build_sites.txt with display sites: ['modencode', 'sgd_yeast', 'tair', 'wormbase', 'wormbase_ws120', 'wormbase_ws140', 'wormbase_ws170', 'wormbase_ws180', 'wormbase_ws190', 'wormbase_ws200', 'wormbase_ws204', 'wormbase_ws210', 'wormbase_ws220', 'wormbase_ws225']
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,779 Loaded build site 'ensembl': tool-data/shared/ensembl/ensembl_sites.txt
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,779 Loaded build site 'ensembl_data_url': tool-data/shared/ensembl/ensembl_sites_data_URL.txt
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,780 Build site file [tool-data/shared/igv/igv_build_sites.txt] not found using sample [tool-data/shared/igv/igv_build_sites.txt.sample].
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,780 Loaded build site 'igv': tool-data/shared/igv/igv_build_sites.txt.sample
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,780 Build site file [tool-data/shared/rviewer/rviewer_build_sites.txt] not found using sample [tool-data/shared/rviewer/rviewer_build_sites.txt.sample].
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:11,780 Loaded build site 'rviewer': tool-data/shared/rviewer/rviewer_build_sites.txt.sample
+galaxy.tools.data INFO 2017-08-08 13:01:13,202 Could not find tool data tool-data/all_fasta.loc, reading sample
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,203 Loaded 0 lines from 'tool-data/all_fasta.loc.sample' for 'all_fasta'
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,203 Loaded tool data table 'all_fasta' from file './config/tool_data_table_conf.xml.sample'
+galaxy.tools.data INFO 2017-08-08 13:01:13,205 Could not find tool data tool-data/bfast_indexes.loc, reading sample
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,205 Loaded 0 lines from 'tool-data/bfast_indexes.loc.sample' for 'bfast_indexes'
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,205 Loaded tool data table 'bfast_indexes' from file './config/tool_data_table_conf.xml.sample'
+galaxy.tools.data INFO 2017-08-08 13:01:13,206 Could not find tool data tool-data/blastdb.loc, reading sample
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,206 Loaded 0 lines from 'tool-data/blastdb.loc.sample' for 'blastdb'
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,206 Loaded tool data table 'blastdb' from file './config/tool_data_table_conf.xml.sample'
+galaxy.tools.data INFO 2017-08-08 13:01:13,207 Could not find tool data tool-data/blastdb_p.loc, reading sample
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,207 Loaded 0 lines from 'tool-data/blastdb_p.loc.sample' for 'blastdb_p'
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,207 Loaded tool data table 'blastdb_p' from file './config/tool_data_table_conf.xml.sample'
+galaxy.tools.data INFO 2017-08-08 13:01:13,207 Could not find tool data tool-data/blastdb_d.loc, reading sample
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,208 Loaded 0 lines from 'tool-data/blastdb_d.loc.sample' for 'blastdb_d'
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,208 Loaded tool data table 'blastdb_d' from file './config/tool_data_table_conf.xml.sample'
+galaxy.tools.data WARNING 2017-08-08 13:01:13,208 Cannot find index file 'tool-data/bwa_index.loc' for tool data table 'bwa_indexes'
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,208 Loaded tool data table 'bwa_indexes' from file './config/tool_data_table_conf.xml.sample'
+galaxy.tools.data WARNING 2017-08-08 13:01:13,209 Cannot find index file 'tool-data/bwa_index_color.loc' for tool data table 'bwa_indexes_color'
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,209 Loaded tool data table 'bwa_indexes_color' from file './config/tool_data_table_conf.xml.sample'
+galaxy.tools.data INFO 2017-08-08 13:01:13,209 Could not find tool data tool-data/maf_index.loc, reading sample
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,209 Loaded 0 lines from 'tool-data/maf_index.loc.sample' for 'indexed_maf_files'
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,210 Loaded tool data table 'indexed_maf_files' from file './config/tool_data_table_conf.xml.sample'
+galaxy.tools.data INFO 2017-08-08 13:01:13,210 Could not find tool data tool-data/ngs_sim_fasta.loc, reading sample
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,210 Loaded 0 lines from 'tool-data/ngs_sim_fasta.loc.sample' for 'ngs_sim_fasta'
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,210 Loaded tool data table 'ngs_sim_fasta' from file './config/tool_data_table_conf.xml.sample'
+galaxy.tools.data INFO 2017-08-08 13:01:13,211 Could not find tool data tool-data/perm_base_index.loc, reading sample
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,212 Loaded 0 lines from 'tool-data/perm_base_index.loc.sample' for 'perm_base_indexes'
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,212 Loaded tool data table 'perm_base_indexes' from file './config/tool_data_table_conf.xml.sample'
+galaxy.tools.data INFO 2017-08-08 13:01:13,212 Could not find tool data tool-data/perm_color_index.loc, reading sample
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,212 Loaded 0 lines from 'tool-data/perm_color_index.loc.sample' for 'perm_color_indexes'
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,213 Loaded tool data table 'perm_color_indexes' from file './config/tool_data_table_conf.xml.sample'
+galaxy.tools.data INFO 2017-08-08 13:01:13,213 Could not find tool data tool-data/picard_index.loc, reading sample
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,213 Loaded 0 lines from 'tool-data/picard_index.loc.sample' for 'picard_indexes'
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,213 Loaded tool data table 'picard_indexes' from file './config/tool_data_table_conf.xml.sample'
+galaxy.tools.data INFO 2017-08-08 13:01:13,214 Could not find tool data tool-data/picard_index.loc, reading sample
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,214 Loaded 0 lines from 'tool-data/picard_index.loc.sample' for 'srma_indexes'
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,214 Loaded tool data table 'srma_indexes' from file './config/tool_data_table_conf.xml.sample'
+galaxy.tools.data INFO 2017-08-08 13:01:13,214 Could not find tool data tool-data/mosaik_index.loc, reading sample
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,214 Loaded 0 lines from 'tool-data/mosaik_index.loc.sample' for 'mosaik_indexes'
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,215 Loaded tool data table 'mosaik_indexes' from file './config/tool_data_table_conf.xml.sample'
+galaxy.tools.data INFO 2017-08-08 13:01:13,215 Could not find tool data tool-data/twobit.loc, reading sample
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,215 Loaded 0 lines from 'tool-data/twobit.loc.sample' for 'twobit'
+galaxy.tools.data DEBUG 2017-08-08 13:01:13,220 Loaded tool data table 'twobit' from file './config/tool_data_table_conf.xml.sample'
+galaxy.tools.data DEBUG 2017-08-08 13:01:14,128 Loading Data Table URL "http://igv.broadinstitute.org/genomes/genomes.txt" as filename "/home/galaxy/galaxy/database/tmp/TTDT_URL_igv_broad_genomes-_5RO2L".
+galaxy.tools.data WARNING 2017-08-08 13:01:14,128 Line 1 in tool data table 'igv_broad_genomes' is invalid (HINT: '<TAB>' characters must be used to separate fields):
+<Server-Side Genome List>
+galaxy.tools.data DEBUG 2017-08-08 13:01:14,132 Loaded 155 lines from '/home/galaxy/galaxy/database/tmp/TTDT_URL_igv_broad_genomes-_5RO2L' for 'igv_broad_genomes'
+galaxy.tools.data DEBUG 2017-08-08 13:01:14,133 Loaded tool data table 'igv_broad_genomes' from file './config/tool_data_table_conf.xml.sample'
+galaxy.tools.data INFO 2017-08-08 13:01:14,134 Could not find tool data tool-data/liftOver.loc, reading sample
+galaxy.tools.data DEBUG 2017-08-08 13:01:14,134 Loaded 0 lines from 'tool-data/liftOver.loc.sample' for 'liftOver'
+galaxy.tools.data DEBUG 2017-08-08 13:01:14,134 Loaded tool data table 'liftOver' from file './config/tool_data_table_conf.xml.sample'
+galaxy.tools.data INFO 2017-08-08 13:01:14,135 Could not find tool data tool-data/bam_iobio.loc, reading sample
+galaxy.tools.data DEBUG 2017-08-08 13:01:14,135 Loaded 1 lines from 'tool-data/bam_iobio.loc.sample' for 'bam_iobio'
+galaxy.tools.data DEBUG 2017-08-08 13:01:14,135 Loaded tool data table 'bam_iobio' from file './config/tool_data_table_conf.xml.sample'
+galaxy.tools.data INFO 2017-08-08 13:01:14,136 Could not find tool data tool-data/vcf_iobio.loc, reading sample
+galaxy.tools.data DEBUG 2017-08-08 13:01:14,136 Loaded 1 lines from 'tool-data/vcf_iobio.loc.sample' for 'vcf_iobio'
+galaxy.tools.data DEBUG 2017-08-08 13:01:14,136 Loaded tool data table 'vcf_iobio' from file './config/tool_data_table_conf.xml.sample'
+galaxy.tools.data INFO 2017-08-08 13:01:14,137 Could not find tool data tool-data/biom_simple_display.loc, reading sample
+galaxy.tools.data DEBUG 2017-08-08 13:01:14,137 Loaded 1 lines from 'tool-data/biom_simple_display.loc.sample' for 'biom_simple_display'
+galaxy.tools.data DEBUG 2017-08-08 13:01:14,137 Loaded tool data table 'biom_simple_display' from file './config/tool_data_table_conf.xml.sample'
+galaxy.jobs WARNING 2017-08-08 13:01:14,205 Job configuration "./job_conf.xml" does not exist, using legacy job configuration from Galaxy config file "/home/galaxy/galaxy/config/galaxy.ini" instead
+galaxy.jobs DEBUG 2017-08-08 13:01:14,205 Loading job configuration from /home/galaxy/galaxy/config/galaxy.ini
+galaxy.jobs DEBUG 2017-08-08 13:01:14,205 Done loading job configuration
+beaker.container DEBUG 2017-08-08 13:01:14,503 data file ./database/citations/data/container_file/4/48/48e563f148dc04d8b31c94878c138019862e580d.cache
+galaxy.tools.toolbox.base INFO 2017-08-08 13:01:14,539 Parsing the tool configuration ./config/tool_conf.xml
+galaxy.tools WARNING 2017-08-08 13:01:14,567 Tool Bayessian_Generalized_Linear_Regression: a when tag has not been defined for 'None (galaxy_response_type) --> ordinal', assuming empty inputs.
+galaxy.tools WARNING 2017-08-08 13:01:14,567 Tool Bayessian_Generalized_Linear_Regression: a when tag has not been defined for 'None (galaxy_response_type) --> gaussian', assuming empty inputs.
+galaxy.tools WARNING 2017-08-08 13:01:14,569 Tool Bayessian_Generalized_Linear_Regression: a when tag has not been defined for 'galaxy_cross_validation (do_randomization) --> no_cross_validation', assuming empty inputs.
+galaxy.tools.toolbox.base ERROR 2017-08-08 13:01:14,580 Error reading tool configuration file from path: extract/liftOver_wrapper.xml
+galaxy.tools.toolbox.base ERROR 2017-08-08 13:01:14,849 Error reading tool configuration file from path: evolution/codingSnps.xml
+galaxy.tools.toolbox.base ERROR 2017-08-08 13:01:14,851 Error reading tool configuration file from path: evolution/add_scores.xml
+galaxy.tools.toolbox.base ERROR 2017-08-08 13:01:14,854 Error reading tool configuration file from path: phenotype_association/sift.xml
+galaxy.tools.parameters.basic WARNING 2017-08-08 13:01:14,884 Datatype class not found for extension 'tab', which is used in the 'format' attribute of parameter 'input1'
+galaxy.tools.toolbox.base INFO 2017-08-08 13:01:14,900 Parsing the tool configuration ./config/shed_tool_conf.xml
+galaxy.tools.toolbox.base ERROR 2017-08-08 13:01:14,902 Error reading tool configuration file from path: 172.29.4.78/repos/admin-venice/gear_ammi/e9b9fe657ae0/gear_ammi/AMMI/asreg.xml
+galaxy.tools.toolbox.base ERROR 2017-08-08 13:01:14,902 Error reading tool configuration file from path: 172.29.4.78/repos/admin-venice/gear_ammi/e9b9fe657ae0/gear_ammi/AMMI/asreg.xml
+galaxy.tools.toolbox.base ERROR 2017-08-08 13:01:14,902 Error reading tool configuration file from path: 172.29.4.78/repos/admin-venice/gear_ammi/e9b9fe657ae0/gear_ammi/AMMI/asreg.xml
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,902 Error while loading tool 175.41.147.71/repos/venicejuanillas/bglr_validate/dc97df091650/bglr_validate/bglr_validate.xml
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,923 Error while loading tool 175.41.147.71/repos/venicejuanillas/bglr_encode/f40bc4c11afd/bglr_encode/bglr_encode.xml
+galaxy.tools.toolbox.base INFO 2017-08-08 13:01:14,929 Parsing the tool configuration ./config/migrated_tools_conf.xml
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,930 Reading tools from config files finshed (390.997 ms)
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,930 Loading section: Get Data
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,930 Loaded tool id: upload1, version: 1.1.4 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,930 Loading section: BGLR
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,932 Loaded tool id: 175.41.147.71:9090/repos/venicejuanillas/bglr_encode/bglr:encode/1.0.0, version: 1.0.0 into tool panel....
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,933 Loaded tool id: 175.41.147.71:9090/repos/venicejuanillas/bglr_validate/bglr:validate/1.0.016, version: 1.0.016 into tool panel....
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,933 Loaded tool id: Bayessian_Generalized_Linear_Regression, version: 1.0.5 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,933 Loading section: GEA-R
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,933 Loaded tool id: ammisreg, version: 0.01 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,934 Loading section: Lift-Over
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,934 Loading section: Text Manipulation
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,934 Loaded tool id: addValue, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,934 Loaded tool id: cat1, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,934 Loaded tool id: Condense characters1, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,935 Loaded tool id: Convert characters1, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,935 Loaded tool id: mergeCols1, version: 1.0.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,935 Loaded tool id: createInterval, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,935 Loaded tool id: Cut1, version: 1.0.2 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,935 Loaded tool id: ChangeCase, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,935 Loaded tool id: Paste1, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,936 Loaded tool id: Remove beginning1, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,936 Loaded tool id: random_lines1, version: 2.0.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,936 Loaded tool id: Show beginning1, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,936 Loaded tool id: Show tail1, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,936 Loaded tool id: trimmer, version: 0.0.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,936 Loaded tool id: wc_gnu, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,937 Loaded tool id: secure_hash_message_digest, version: 0.0.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,937 Loading section: Convert Formats
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,937 Loaded tool id: bed2gff1, version: 2.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,937 Loaded tool id: gff2bed1, version: 1.0.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,937 Loaded tool id: MAF_To_BED1, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,937 Loaded tool id: MAF_To_Interval1, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,938 Loaded tool id: MAF_To_Fasta1, version: 1.0.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,938 Loaded tool id: Sff_extractor, version: 1.0.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,938 Loaded tool id: wig_to_bigWig, version: 1.1.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,938 Loaded tool id: bed_to_bigBed, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,938 Loading section: Filter and Sort
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,938 Loaded tool id: Filter1, version: 1.1.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,938 Loaded tool id: sort1, version: 1.0.3 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,939 Loaded tool id: Grep1, version: 1.0.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,939 Loaded label: GFF
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,939 Loaded tool id: Extract_features1, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,939 Loaded tool id: gff_filter_by_attribute, version: 0.1.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,939 Loaded tool id: gff_filter_by_feature_count, version: 0.1.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,939 Loaded tool id: gtf_filter_by_attribute_values_list, version: 0.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,939 Loading section: Join, Subtract and Group
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,940 Loaded tool id: join1, version: 2.0.2 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,940 Loaded tool id: comp1, version: 1.0.2 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,940 Loaded tool id: Grouping1, version: 2.1.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,940 Loading section: Extract Features
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,941 Loaded tool id: gene2exon1, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,941 Loading section: Fetch Sequences
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,941 Loaded tool id: Extract genomic DNA 1, version: 2.2.3 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,941 Loading section: Fetch Alignments
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,942 Loaded tool id: Interval2Maf_pairwise1, version: 1.0.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,942 Loaded tool id: Interval2Maf1, version: 1.0.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,942 Loaded tool id: Interval_Maf_Merged_Fasta2, version: 1.0.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,943 Loaded tool id: GeneBed_Maf_Fasta2, version: 1.0.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,943 Loaded tool id: maf_stats1, version: 1.0.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,943 Loaded tool id: MAF_Thread_For_Species1, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,944 Loaded tool id: MAF_Limit_To_Species1, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,944 Loaded tool id: maf_limit_size1, version: 1.0.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,944 Loaded tool id: maf_by_block_number1, version: 1.0.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,945 Loaded tool id: MAF_filter, version: 1.0.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,945 Loaded tool id: MAF_Reverse_Complement_1, version: 1.0.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,945 Loading section: Get Genomic Scores
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,946 Loaded tool id: wiggle2simple1, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,946 Loaded tool id: aggregate_scores_in_intervals2, version: 1.1.3 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,947 Loading section: Statistics
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,947 Loaded tool id: Summary_Statistics1, version: 1.1.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,948 Loaded tool id: Count1, version: 1.0.2 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,948 Loading section: Graph/Display Data
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,948 Loaded tool id: qual_stats_boxplot, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,949 Loaded tool id: vcf_to_maf_customtrack1, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,949 Loading section: Phenotype Association
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,949 Loaded tool id: hgv_linkToGProfile, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,950 Loaded tool id: hgv_david, version: 1.0.1 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,950 Loaded tool id: hgv_ldtools, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,950 Loaded tool id: hgv_pass, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,950 Loaded tool id: hgv_gpass, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,950 Loaded tool id: hgv_beam, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,950 Loaded tool id: hgv_lps, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,951 Loaded tool id: master2pgSnp, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,951 Loading section: NGS: QC and manipulation
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,951 Loaded label: Illumina data
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,951 Loaded label: Roche-454 data
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,951 Loaded label: AB-SOLiD data
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,951 Loaded tool id: solid2fastq, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,951 Loaded tool id: solid_qual_stats, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,951 Loaded tool id: solid_qual_boxplot, version: 1.0.0 into tool panel..
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,952 Loaded label: Generic FASTQ manipulation
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,952 Loaded label: FASTX-Toolkit for FASTQ data
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,952 Loading section: NGS: Mapping
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,952 Loaded label: Illumina
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,952 Loaded label: Roche-454
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,952 Loaded label: AB-SOLiD
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,952 Loading section: NGS: SAM Tools
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,952 Loading section: IRRI Toolshed Tools
+galaxy.tools.toolbox.base DEBUG 2017-08-08 13:01:14,952 Loading tool panel finished (22.465 ms)
+galaxy.tools.deps.conda_util WARNING 2017-08-08 13:01:14,973 Cannot install Conda because conda_prefix '/home/galaxy/galaxy/database/dependencies/_conda' exists and is not empty.
+galaxy.tools.deps.conda_util WARNING 2017-08-08 13:01:14,993 Cannot install Conda because conda_prefix '/home/galaxy/galaxy/database/dependencies/_conda' exists and is not empty.
+galaxy.tools.search DEBUG 2017-08-08 13:01:15,000 Starting to build toolbox index.
+galaxy.tools.search DEBUG 2017-08-08 13:01:18,853 Toolbox index finished (3853.061 ms)
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:18,858 Loaded display application 'ucsc_bam' for datatype 'bam', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:18,873 Loaded display application 'ensembl_bam' for datatype 'bam', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:18,968 Loaded display application 'igv_bam' for datatype 'bam', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:18,969 Loaded display application 'igb_bam' for datatype 'bam', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:18,970 Loaded display application 'iobio_bam' for datatype 'bam', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:18,970 Loaded display application 'igb_bed' for datatype 'bed', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:18,971 Loaded display application 'igb_bedgraph' for datatype 'bedgraph', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:18,974 Loaded display application 'ucsc_bigbed' for datatype 'bigbed', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:18,975 Loaded display application 'igb_bb' for datatype 'bigbed', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:18,977 Loaded display application 'ucsc_bigwig' for datatype 'bigwig', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:18,978 Loaded display application 'igb_bigwig' for datatype 'bigwig', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:18,982 Loaded display application 'igv_bigwig' for datatype 'bigwig', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,057 Loaded display application 'igv_fasta' for datatype 'fasta', inherit=True.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,067 Loaded display application 'ensembl_gff' for datatype 'gff', inherit=True.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,195 Loaded display application 'igv_gff' for datatype 'gff', inherit=True.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,196 Loaded display application 'igb_gtf' for datatype 'gtf', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,234 Loaded display application 'ensembl_interval' for datatype 'interval', inherit=True.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,284 Loaded display application 'gbrowse_interval_as_bed' for datatype 'interval', inherit=True.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,304 Loaded display application 'rviewer_interval' for datatype 'interval', inherit=True.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,458 Loaded display application 'igv_interval_as_bed' for datatype 'interval', inherit=True.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,462 Loaded display application 'ucsc_maf_customtrack' for datatype 'mafcustomtrack', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,479 Loaded display application 'ucsc_vcf' for datatype 'vcf', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,691 Loaded display application 'igv_vcf' for datatype 'vcf', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,693 Loaded display application 'rviewer_vcf' for datatype 'vcf', inherit=True.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,694 Loaded display application 'iobio_vcf' for datatype 'vcf', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,695 Loaded display application 'igb_wig' for datatype 'wig', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,900 Loaded display application 'igv_vcf' for datatype 'vcf_bgzip', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,901 Loaded display application 'biom_simple' for datatype 'biom1', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,902 Loaded display application 'ucsc_trackhub' for datatype 'trackhub', inherit=False.
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,920 Adding inherited display application 'ensembl_interval' to datatype 'bedgraph'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,920 Adding inherited display application 'gbrowse_interval_as_bed' to datatype 'bedgraph'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,920 Adding inherited display application 'rviewer_interval' to datatype 'bedgraph'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,920 Adding inherited display application 'igv_interval_as_bed' to datatype 'bedgraph'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,920 Adding inherited display application 'ensembl_interval' to datatype 'bed12'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,920 Adding inherited display application 'gbrowse_interval_as_bed' to datatype 'bed12'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,920 Adding inherited display application 'rviewer_interval' to datatype 'bed12'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,920 Adding inherited display application 'igv_interval_as_bed' to datatype 'bed12'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,949 Adding inherited display application 'ensembl_gff' to datatype 'gtf'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,949 Adding inherited display application 'igv_gff' to datatype 'gtf'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,968 Adding inherited display application 'ensembl_interval' to datatype 'bed'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,968 Adding inherited display application 'gbrowse_interval_as_bed' to datatype 'bed'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,968 Adding inherited display application 'rviewer_interval' to datatype 'bed'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,969 Adding inherited display application 'igv_interval_as_bed' to datatype 'bed'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,987 Adding inherited display application 'igv_fasta' to datatype 'sequences'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,987 Adding inherited display application 'ensembl_interval' to datatype 'bedstrict'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,988 Adding inherited display application 'gbrowse_interval_as_bed' to datatype 'bedstrict'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,988 Adding inherited display application 'rviewer_interval' to datatype 'bedstrict'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:19,988 Adding inherited display application 'igv_interval_as_bed' to datatype 'bedstrict'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,007 Adding inherited display application 'igv_fasta' to datatype 'mothur.align'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,010 Adding inherited display application 'ensembl_gff' to datatype 'gff3'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,010 Adding inherited display application 'igv_gff' to datatype 'gff3'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,035 Adding inherited display application 'ensembl_interval' to datatype 'chrint'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,035 Adding inherited display application 'gbrowse_interval_as_bed' to datatype 'chrint'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,035 Adding inherited display application 'rviewer_interval' to datatype 'chrint'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,036 Adding inherited display application 'igv_interval_as_bed' to datatype 'chrint'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,036 Adding inherited display application 'ensembl_interval' to datatype 'encodepeak'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,037 Adding inherited display application 'gbrowse_interval_as_bed' to datatype 'encodepeak'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,037 Adding inherited display application 'rviewer_interval' to datatype 'encodepeak'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,037 Adding inherited display application 'igv_interval_as_bed' to datatype 'encodepeak'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,057 Adding inherited display application 'ensembl_interval' to datatype 'bed6'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,058 Adding inherited display application 'gbrowse_interval_as_bed' to datatype 'bed6'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,058 Adding inherited display application 'rviewer_interval' to datatype 'bed6'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,058 Adding inherited display application 'igv_interval_as_bed' to datatype 'bed6'
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,065 Loaded converter: CONVERTER_Bam_Bai_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,079 Loaded converter: CONVERTER_bam_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,081 Loaded converter: CONVERTER_bed_to_gff_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,084 Loaded converter: CONVERTER_bed_to_bgzip_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,086 Loaded converter: CONVERTER_bed_to_tabix_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,087 Loaded converter: CONVERTER_bed_gff_or_vcf_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,102 Loaded converter: CONVERTER_bed_to_fli_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,104 Loaded converter: CONVERTER_bedgraph_to_bigwig
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,107 Loaded converter: CONVERTER_len_to_linecount
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,135 Loaded converter: CONVERTER_interval_to_bgzip_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,138 Loaded converter: CONVERTER_interval_to_tabix_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,140 Loaded converter: CONVERTER_bed_gff_or_vcf_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,141 Loaded converter: CONVERTER_fasta_to_tabular
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,143 Loaded converter: CONVERTER_fasta_to_bowtie_base_index
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,157 Loaded converter: CONVERTER_fasta_to_bowtie_color_index
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,160 Loaded converter: CONVERTER_fasta_to_2bit
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,163 Loaded converter: CONVERTER_fasta_to_len
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,165 Loaded converter: CONVERTER_fasta_to_fai
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,182 Loaded converter: CONVERTER_fastq_to_fqtoc0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,186 Loaded converter: CONVERTER_fastq_to_fqtoc0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,188 Loaded converter: CONVERTER_fastq_to_fqtoc0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,190 Loaded converter: CONVERTER_fastq_to_fqtoc0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,204 Loaded converter: CONVERTER_fastq_to_fqtoc0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,206 Loaded converter: CONVERTER_fastqgz_to_fastq
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,210 Loaded converter: CONVERTER_fastqsangergz_to_fastqsanger
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,212 Loaded converter: CONVERTER_fastqsolexagz_to_fastqsolexa
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,227 Loaded converter: CONVERTER_fastqcssangergz_to_fastqcssanger
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,230 Loaded converter: CONVERTER_fastqilluminagz_to_fastqillumina
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,233 Loaded converter: CONVERTER_fastqbz2_to_fastq
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,247 Loaded converter: CONVERTER_fastqsangerbz2_to_fastqsanger
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,253 Loaded converter: CONVERTER_fastqsolexabz2_to_fastqsolexa
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,256 Loaded converter: CONVERTER_fastqcssangerbz2_to_fastqcssanger
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,270 Loaded converter: CONVERTER_fastqilluminabz2_to_fastqillumina
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,273 Loaded converter: CONVERTER_gff_to_bed_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,698 Loaded converter: CONVERTER_gff_to_interval_index_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,701 Loaded converter: CONVERTER_bed_gff_or_vcf_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,705 Loaded converter: CONVERTER_gff_to_fli_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,707 Loaded converter: CONVERTER_gff_to_interval_index_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,709 Loaded converter: CONVERTER_bed_gff_or_vcf_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,711 Loaded converter: CONVERTER_interval_to_bed_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,713 Loaded converter: CONVERTER_interval_to_bedstrict_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,716 Loaded converter: CONVERTER_interval_to_bed6_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,719 Loaded converter: CONVERTER_interval_to_bed12_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,722 Loaded converter: CONVERTER_interval_to_bgzip_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,725 Loaded converter: CONVERTER_interval_to_tabix_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,727 Loaded converter: CONVERTER_interval_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,730 Loaded converter: CONVERTER_picard_interval_list_to_bed6
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,732 Loaded converter: CONVERTER_maf_to_fasta_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,734 Loaded converter: CONVERTER_maf_to_interval_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,736 Loaded converter: CONVERTER_encodepeak_to_tabix_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,738 Loaded converter: CONVERTER_encodepeak_to_bgzip_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,740 Loaded converter: CONVERTER_bed_gff_or_vcf_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,741 Loaded converter: CONVERTER_interval_to_bgzip_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,743 Loaded converter: CONVERTER_interval_to_tabix_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,745 Loaded converter: CONVERTER_sam_to_bam
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,747 Loaded converter: CONVERTER_sam_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,751 Loaded converter: tabular_to_dbnsfp
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,754 Loaded converter: CONVERTER_vcf_to_bgzip_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,757 Loaded converter: CONVERTER_vcf_to_vcf_bgzip_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,760 Loaded converter: CONVERTER_vcf_to_tabix_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,763 Loaded converter: CONVERTER_bed_gff_or_vcf_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,766 Loaded converter: CONVERTER_bcf_to_bcf_bgzip
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,769 Loaded converter: CONVERTER_bcf_bgzip_to_bcf
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,771 Loaded converter: CONVERTER_wig_to_bigwig
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,773 Loaded converter: CONVERTER_wiggle_to_interval_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,776 Loaded converter: CONVERTER_vcf_bgzip_to_tabix_0
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,779 Loaded converter: lped2fpedconvert
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,783 Loaded converter: lped2pbedconvert
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,785 Loaded converter: pbed2lpedconvert
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,787 Loaded converter: pbed2ldindepconvert
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,789 Loaded converter: CONVERTER_SMILES_to_sdf
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,791 Loaded converter: CONVERTER_SMILES_to_inchi
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,794 Loaded converter: CONVERTER_SMILES_to_cml
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,796 Loaded converter: CONVERTER_SMILES_to_MOL
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,798 Loaded converter: CONVERTER_SMILES_to_MOL2
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,801 Loaded converter: CONVERTER_smiles_to_smiles
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,804 Loaded converter: CONVERTER_sdf_to_smiles
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,806 Loaded converter: CONVERTER_sdf_to_inchi
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,808 Loaded converter: CONVERTER_sdf_to_mol2
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,814 Loaded converter: CONVERTER_sdf_to_cml
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,818 Loaded converter: CONVERTER_inchi_to_smi
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,822 Loaded converter: CONVERTER_inchi_to_sdf
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,825 Loaded converter: CONVERTER_inchi_to_mol
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,828 Loaded converter: CONVERTER_inchi_to_mol2
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,832 Loaded converter: CONVERTER_inchi_to_cml
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,835 Loaded converter: CONVERTER_mol_to_smi
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,837 Loaded converter: CONVERTER_mol_to_mol2
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,839 Loaded converter: CONVERTER_mol_to_mol2
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,840 Loaded converter: CONVERTER_mol_to_cml
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,843 Loaded converter: CONVERTER_mol2_to_smi
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,845 Loaded converter: CONVERTER_mol2_to_sdf
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,850 Loaded converter: CONVERTER_mol2_to_inchi
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,852 Loaded converter: CONVERTER_mol2_to_mol
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,855 Loaded converter: CONVERTER_mol2_to_cml
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,858 Loaded converter: CONVERTER_cml_to_smiles
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,862 Loaded converter: CONVERTER_cml_to_inchi
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,867 Loaded converter: CONVERTER_cml_to_sdf
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,873 Loaded converter: CONVERTER_cml_to_mol2
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,875 Loaded converter: CONVERTER_ref_to_seq_taxomony
+galaxy.datatypes.registry DEBUG 2017-08-08 13:01:20,918 Loaded external metadata tool: __SET_METADATA__
+galaxy.tools.special_tools DEBUG 2017-08-08 13:01:20,920 Loaded history import tool: __IMPORT_HISTORY__
+galaxy.tools.special_tools DEBUG 2017-08-08 13:01:20,923 Loaded history export tool: __EXPORT_HISTORY__
+galaxy.web.base.pluginframework INFO 2017-08-08 13:01:20,925 VisualizationsRegistry, loaded plugin: charts
+galaxy.visualization.plugins.config_parser INFO 2017-08-08 13:01:20,926 Visualizations plugin disabled: Circster. Skipping...
+galaxy.visualization.plugins.config_parser INFO 2017-08-08 13:01:20,927 template syntax is deprecated: use entry_point instead
+galaxy.web.base.pluginframework INFO 2017-08-08 13:01:20,927 VisualizationsRegistry, loaded plugin: csg
+galaxy.visualization.plugins.config_parser INFO 2017-08-08 13:01:20,928 template syntax is deprecated: use entry_point instead
+galaxy.web.base.pluginframework INFO 2017-08-08 13:01:20,929 VisualizationsRegistry, loaded plugin: graphviz
+galaxy.web.base.pluginframework INFO 2017-08-08 13:01:20,930 VisualizationsRegistry, loaded plugin: phyloviz
+galaxy.web.base.pluginframework INFO 2017-08-08 13:01:20,933 VisualizationsRegistry, loaded plugin: scatterplot
+galaxy.visualization.plugins.config_parser INFO 2017-08-08 13:01:20,934 Visualizations plugin disabled: Sweepster. Skipping...
+galaxy.web.base.pluginframework INFO 2017-08-08 13:01:20,935 VisualizationsRegistry, loaded plugin: trackster
+galaxy.tours INFO 2017-08-08 13:01:21,056 Loaded tour 'core.galaxy_ui'
+galaxy.tours INFO 2017-08-08 13:01:21,116 Loaded tour 'core.history'
+galaxy.tours INFO 2017-08-08 13:01:21,135 Loaded tour 'core.scratchbook'
+galaxy.webhooks WARNING 2017-08-08 13:01:21,136 directory not found: /home/galaxy/galaxy/lib/galaxy/util/../../.././config/plugins/webhooks/demo/config
+galaxy.jobs.manager DEBUG 2017-08-08 13:01:21,142 Starting job handler
+galaxy.jobs INFO 2017-08-08 13:01:21,142 Handler 'main' will load all configured runner plugins
+galaxy.jobs.runners.state_handler_factory DEBUG 2017-08-08 13:01:21,143 Loaded 'failure' state handler from module galaxy.jobs.runners.state_handlers.resubmit
+galaxy.jobs.runners DEBUG 2017-08-08 13:01:21,143 Starting 5 LocalRunner workers
+galaxy.jobs DEBUG 2017-08-08 13:01:21,144 Loaded job runner 'galaxy.jobs.runners.local:LocalJobRunner' as 'local'
+galaxy.jobs DEBUG 2017-08-08 13:01:21,144 Legacy destination with id 'local:///', url 'local:///' converted, got params:
+galaxy.jobs.handler DEBUG 2017-08-08 13:01:21,145 Loaded job runners plugins: local
+galaxy.jobs.handler INFO 2017-08-08 13:01:21,146 job handler stop queue started
+galaxy.jobs.handler INFO 2017-08-08 13:01:21,193 job handler queue started
+galaxy.sample_tracking.external_service_types DEBUG 2017-08-08 13:01:21,195 Loaded external_service_type: Simple unknown sequencer 1.0.0
+galaxy.sample_tracking.external_service_types DEBUG 2017-08-08 13:01:21,198 Loaded external_service_type: Applied Biosystems SOLiD 1.0.0
+galaxy.workflow.scheduling_manager DEBUG 2017-08-08 13:01:21,202 Starting workflow schedulers
+galaxy.app INFO 2017-08-08 13:01:21,218 Galaxy app startup finished (10899.086 ms)
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,235 Enabling 'admin' controller, class: AdminGalaxy
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,378 Enabling 'admin_toolshed' controller, class: AdminGalaxy
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,378 Enabling 'admin_toolshed' controller, class: AdminToolshed
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,379 Enabling 'async' controller, class: ASync
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,383 Enabling 'biostar' controller, class: BiostarController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,385 Enabling 'data_manager' controller, class: DataManager
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,387 Enabling 'dataset' controller, class: DatasetInterface
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,388 Enabling 'error' controller, class: Error
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,391 Enabling 'external_service' controller, class: ExternalService
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,391 Enabling 'external_services' controller, class: ExternalServiceController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,393 Enabling 'forms' controller, class: Forms
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,401 Enabling 'history' controller, class: HistoryController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,402 Enabling 'interactive_environments' controller, class: InteractiveEnvironmentsController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,408 Enabling 'library' controller, class: Library
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,409 Enabling 'library_admin' controller, class: LibraryAdmin
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,410 Enabling 'library_common' controller, class: LibraryCommon
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,410 Enabling 'mobile' controller, class: Mobile
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,414 Enabling 'page' controller, class: PageController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,415 Enabling 'request_type' controller, class: RequestType
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,416 Enabling 'requests' controller, class: Requests
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,418 Enabling 'requests_admin' controller, class: RequestsAdmin
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,418 Enabling 'requests_common' controller, class: RequestsCommon
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,420 Enabling 'root' controller, class: RootController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,421 Enabling 'tag' controller, class: TagsController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,421 Enabling 'tool_runner' controller, class: ToolRunner
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,423 Enabling 'user' controller, class: User
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,424 Enabling 'userskeys' controller, class: User
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,426 Enabling 'visualization' controller, class: VisualizationController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,430 Enabling 'workflow' controller, class: WorkflowController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,436 Enabling 'history_annotations' API controller, class: HistoryAnnotationsController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,436 Enabling 'history_content_annotations' API controller, class: HistoryContentAnnotationsController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,437 Enabling 'workflow_annotations' API controller, class: WorkflowAnnotationsController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,438 Enabling 'authenticate' API controller, class: AuthenticationController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,439 Enabling 'configuration' API controller, class: ConfigurationController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,440 Enabling 'dataset_collections' API controller, class: DatasetCollectionsController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,442 Enabling 'datasets' API controller, class: DatasetsController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,443 Enabling 'datatypes' API controller, class: DatatypesController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,443 Enabling 'history_dataset_extended_metadata' API controller, class: HistoryDatasetExtendMetadataController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,443 Enabling 'library_dataset_extended_metadata' API controller, class: LibraryDatasetExtendMetadataController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,444 Enabling 'folder_contents' API controller, class: FolderContentsController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,445 Enabling 'folders' API controller, class: FoldersController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,445 Enabling 'forms' API controller, class: FormDefinitionAPIController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,446 Enabling 'genomes' API controller, class: GenomesController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,446 Enabling 'group_roles' API controller, class: GroupRolesAPIController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,447 Enabling 'group_users' API controller, class: GroupUsersAPIController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,448 Enabling 'groups' API controller, class: GroupAPIController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,449 Enabling 'histories' API controller, class: HistoriesController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,454 Enabling 'history_contents' API controller, class: HistoryContentsController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,455 Enabling 'history_content_tags' API controller, class: HistoryContentTagsController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,455 Enabling 'history_tags' API controller, class: HistoryTagsController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,455 Enabling 'workflow_tags' API controller, class: WorkflowTagsController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,456 Enabling 'job_files' API controller, class: JobFilesAPIController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,456 Enabling 'jobs' API controller, class: JobController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,457 Enabling 'lda_datasets' API controller, class: LibraryDatasetsController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,458 Enabling 'libraries' API controller, class: LibrariesController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,459 Enabling 'library_contents' API controller, class: LibraryContentsController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,460 Enabling 'metrics' API controller, class: MetricsController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,460 Enabling 'page_revisions' API controller, class: PageRevisionsController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,461 Enabling 'pages' API controller, class: PagesController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,462 Enabling 'history_content_provenance' API controller, class: HDAProvenanceController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,462 Enabling 'ldda_provenance' API controller, class: LDDAProvenanceController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,463 Enabling 'quotas' API controller, class: QuotaAPIController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,467 Enabling 'remote_files' API controller, class: RemoteFilesAPIController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,468 Enabling 'request_types' API controller, class: RequestTypeAPIController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,470 Enabling 'requests' API controller, class: RequestsAPIController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,470 Enabling 'roles' API controller, class: RoleAPIController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,471 Enabling 'samples' API controller, class: SamplesAPIController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,483 Enabling 'search' API controller, class: SearchController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,484 Enabling 'tool_data' API controller, class: ToolData
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,484 Enabling 'tool_dependencies' API controller, class: ToolDependenciesAPIController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,485 Enabling 'tool_shed_repositories' API controller, class: ToolShedRepositoriesController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,486 Enabling 'tools' API controller, class: ToolsController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,486 Enabling 'tours' API controller, class: ToursController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,488 Enabling 'users' API controller, class: UserAPIController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,488 Enabling 'visualizations' API controller, class: VisualizationsController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,489 Enabling 'webhooks' API controller, class: WebhooksController
+galaxy.web.framework.base DEBUG 2017-08-08 13:01:21,491 Enabling 'workflows' API controller, class: WorkflowsAPIController
+galaxy.webapps.util DEBUG 2017-08-08 13:01:22,184 Enabling 'paste.httpexceptions' middleware
+galaxy.webapps.util DEBUG 2017-08-08 13:01:22,186 Enabling 'RecursiveMiddleware' middleware
+galaxy.webapps.util DEBUG 2017-08-08 13:01:22,211 Enabling 'ErrorMiddleware' middleware
+galaxy.webapps.util DEBUG 2017-08-08 13:01:22,211 Enabling 'TransLogger' middleware
+galaxy.webapps.util DEBUG 2017-08-08 13:01:22,212 Enabling 'XForwardedHostMiddleware' middleware
+galaxy.webapps.util DEBUG 2017-08-08 13:01:22,212 Enabling 'RequestIDMiddleware' middleware
+galaxy.webapps.util DEBUG 2017-08-08 13:01:22,214 Enabling 'BatchMiddleware' middleware
+galaxy.webapps.util DEBUG 2017-08-08 13:01:22,214 Enabling 'wrap_in_static' middleware
+galaxy.webapps.galaxy.buildapp DEBUG 2017-08-08 13:01:22,245 added url, path to static middleware: /plugins/visualizations/charts/static, ./config/plugins/visualizations/charts/static
+galaxy.webapps.galaxy.buildapp DEBUG 2017-08-08 13:01:22,245 added url, path to static middleware: /plugins/visualizations/csg/static, ./config/plugins/visualizations/csg/static
+galaxy.webapps.galaxy.buildapp DEBUG 2017-08-08 13:01:22,245 added url, path to static middleware: /plugins/visualizations/graphviz/static, ./config/plugins/visualizations/graphviz/static
+galaxy.webapps.galaxy.buildapp DEBUG 2017-08-08 13:01:22,246 added url, path to static middleware: /plugins/visualizations/scatterplot/static, ./config/plugins/visualizations/scatterplot/static
+galaxy.queue_worker INFO 2017-08-08 13:01:22,246 Binding and starting galaxy control worker for main
+galaxy.webapps.galaxy.buildapp DEBUG 2017-08-08 13:01:22,352 Prior to webapp return, Galaxy thread <_MainThread(MainThread, started 139934708164416)> is alive.
+galaxy.webapps.galaxy.buildapp DEBUG 2017-08-08 13:01:22,352 Prior to webapp return, Galaxy thread <Thread(ToolConfWatcher.thread, started daemon 139934279534336)> is alive.
+galaxy.webapps.galaxy.buildapp DEBUG 2017-08-08 13:01:22,353 Prior to webapp return, Galaxy thread <Thread(JobHandlerStopQueue.monitor_thread, started daemon 139933725488896)> is alive.
+galaxy.webapps.galaxy.buildapp DEBUG 2017-08-08 13:01:22,353 Prior to webapp return, Galaxy thread <Thread(LocalRunner.work_thread-4, started daemon 139934142777088)> is alive.
+galaxy.webapps.galaxy.buildapp DEBUG 2017-08-08 13:01:22,353 Prior to webapp return, Galaxy thread <GalaxyQueueWorker(Thread-1, started daemon 139933700310784)> is alive.
+galaxy.webapps.galaxy.buildapp DEBUG 2017-08-08 13:01:22,354 Prior to webapp return, Galaxy thread <Thread(LocalRunner.work_thread-3, started daemon 139934151169792)> is alive.
+galaxy.webapps.galaxy.buildapp DEBUG 2017-08-08 13:01:22,354 Prior to webapp return, Galaxy thread <Thread(LocalRunner.work_thread-2, started daemon 139934159562496)> is alive.
+galaxy.webapps.galaxy.buildapp DEBUG 2017-08-08 13:01:22,354 Prior to webapp return, Galaxy thread <Thread(ToolConfWatcher.thread, started daemon 139934271141632)> is alive.
+galaxy.webapps.galaxy.buildapp DEBUG 2017-08-08 13:01:22,354 Prior to webapp return, Galaxy thread <Thread(LocalRunner.work_thread-1, started daemon 139934167955200)> is alive.
+galaxy.webapps.galaxy.buildapp DEBUG 2017-08-08 13:01:22,354 Prior to webapp return, Galaxy thread <Thread(JobHandlerQueue.monitor_thread, started daemon 139933717096192)> is alive.
+galaxy.webapps.galaxy.buildapp DEBUG 2017-08-08 13:01:22,354 Prior to webapp return, Galaxy thread <Thread(WorkflowRequestMonitor.monitor_thread, started daemon 139933708703488)> is alive.
+galaxy.webapps.galaxy.buildapp DEBUG 2017-08-08 13:01:22,354 Prior to webapp return, Galaxy thread <Thread(LocalRunner.work_thread-0, started daemon 139934176347904)> is alive.
+Starting server in PID 7436.
+serving on http://127.0.0.1:8080
+galaxy.tools DEBUG 2017-08-08 13:03:55,031 Validated and populated state for tool request (217.481 ms)
+galaxy.tools.actions INFO 2017-08-08 13:03:55,881 Handled output named report for tool ammisreg (570.452 ms)
+galaxy.tools.actions INFO 2017-08-08 13:03:56,416 Handled output named gbtest for tool ammisreg (534.993 ms)
+galaxy.tools.actions INFO 2017-08-08 13:03:57,254 Handled output named pc12 for tool ammisreg (837.631 ms)
+galaxy.tools.actions INFO 2017-08-08 13:03:57,946 Handled output named pc23 for tool ammisreg (691.408 ms)
+galaxy.tools.actions INFO 2017-08-08 13:03:59,657 Handled output named pc13 for tool ammisreg (1710.695 ms)
+galaxy.tools.actions INFO 2017-08-08 13:04:00,596 Handled output named pctr for tool ammisreg (938.306 ms)
+galaxy.tools.actions INFO 2017-08-08 13:04:01,223 Handled output named plot for tool ammisreg (626.311 ms)
+galaxy.tools.actions INFO 2017-08-08 13:04:01,587 Added output datasets to history (364.326 ms)
+galaxy.tools.actions INFO 2017-08-08 13:04:01,869 Verified access to datasets for Job[unflushed,tool_id=ammisreg] (115.357 ms)
+galaxy.tools.actions INFO 2017-08-08 13:04:01,872 Setup for job Job[unflushed,tool_id=ammisreg] complete, ready to flush (284.157 ms)
+galaxy.jobs DEBUG 2017-08-08 13:04:02,534 (27) Working directory for job is: /home/galaxy/galaxy/database/jobs_directory/000/27
+galaxy.tools.actions INFO 2017-08-08 13:04:02,578 Flushed transaction for job Job[id=27,tool_id=ammisreg] (705.511 ms)
+galaxy.tools.execute DEBUG 2017-08-08 13:04:02,579 Tool [ammisreg] created job [27] (7383.724 ms)
+galaxy.tools.execute DEBUG 2017-08-08 13:04:02,716 Executed 1 job(s) for tool ammisreg request: (7684.414 ms)
+galaxy.jobs.handler DEBUG 2017-08-08 13:04:02,926 (27) Dispatching to local runner
+galaxy.jobs DEBUG 2017-08-08 13:04:03,572 (27) Persisting job destination (destination id: local:///)
+galaxy.jobs.runners DEBUG 2017-08-08 13:04:04,058 Job [27] queued (1130.458 ms)
+galaxy.jobs.handler INFO 2017-08-08 13:04:04,242 (27) Job dispatched
+galaxy.jobs.command_factory INFO 2017-08-08 13:04:07,628 Built script [/home/galaxy/galaxy/database/jobs_directory/000/27/tool_script.sh] for tool command [bash /home/galaxy/galaxy/tools/GEA-R/AMMI/runAMMI-2.sh '/home/galaxy/galaxy/database/files/000/dataset_92.dat' '/home/galaxy/galaxy/database/files/000/dataset_114.dat' 'Lattice' 'AMMI' 'NA,NA,NA' 'YLD' 'Batan,Toluca,AguaFria,Tlatizapan,Celaya,Tuxtla,Ameca' '/home/galaxy/galaxy/database/files/000/dataset_115.dat' '/home/galaxy/galaxy/database/files/000/dataset_116.dat' '/home/galaxy/galaxy/database/files/000/dataset_117.dat' '/home/galaxy/galaxy/database/files/000/dataset_118.dat' '/home/galaxy/galaxy/database/files/000/dataset_119.dat' '/home/galaxy/galaxy/database/files/000/dataset_120.dat']
+galaxy.jobs.runners DEBUG 2017-08-08 13:04:13,367 (27) command is: rm -rf working; mkdir -p working; cd working; /home/galaxy/galaxy/database/jobs_directory/000/27/tool_script.sh; return_code=$?; cd '/home/galaxy/galaxy/database/jobs_directory/000/27'; 
+if [ "$GALAXY_LIB" != "None" ]; then
+    if [ -n "$PYTHONPATH" ]; then
+        PYTHONPATH="$GALAXY_LIB:$PYTHONPATH"
+    else
+        PYTHONPATH="$GALAXY_LIB"
+    fi
+    export PYTHONPATH
+fi
+if [ "$GALAXY_VIRTUAL_ENV" != "None" -a -z "$VIRTUAL_ENV"      -a -f "$GALAXY_VIRTUAL_ENV/bin/activate" ]; then
+    . "$GALAXY_VIRTUAL_ENV/bin/activate"
+fi
+GALAXY_PYTHON=`command -v python`
+python "/home/galaxy/galaxy/database/jobs_directory/000/27/set_metadata_MUaZf1.py" "/home/galaxy/galaxy/database/tmp/tmpxkM7gi" "/home/galaxy/galaxy/database/jobs_directory/000/27/working/galaxy.json" "/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_in_HistoryDatasetAssociation_114_94oEzY,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_kwds_HistoryDatasetAssociation_114_H_VHce,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_out_HistoryDatasetAssociation_114_2ueldG,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_results_HistoryDatasetAssociation_114_EhHFJm,/home/galaxy/galaxy/database/files/000/dataset_114.dat,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_override_HistoryDatasetAssociation_114_5s6AaW" "/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_in_HistoryDatasetAssociation_115_MEYutq,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_kwds_HistoryDatasetAssociation_115_XiA5lE,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_out_HistoryDatasetAssociation_115_zcoIKn,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_results_HistoryDatasetAssociation_115_5Pk39Y,/home/galaxy/galaxy/database/files/000/dataset_115.dat,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_override_HistoryDatasetAssociation_115_yXQeq_" "/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_in_HistoryDatasetAssociation_116_s28a5D,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_kwds_HistoryDatasetAssociation_116_EQ3WXj,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_out_HistoryDatasetAssociation_116_yayDRR,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_results_HistoryDatasetAssociation_116_FjhLU7,/home/galaxy/galaxy/database/files/000/dataset_116.dat,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_override_HistoryDatasetAssociation_116_uOl2Va" "/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_in_HistoryDatasetAssociation_117_m3iSwN,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_kwds_HistoryDatasetAssociation_117_c3Ex4f,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_out_HistoryDatasetAssociation_117_l0HUuW,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_results_HistoryDatasetAssociation_117_PxyAgM,/home/galaxy/galaxy/database/files/000/dataset_117.dat,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_override_HistoryDatasetAssociation_117_stHpcT" "/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_in_HistoryDatasetAssociation_118_yRGlgd,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_kwds_HistoryDatasetAssociation_118_hWiye7,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_out_HistoryDatasetAssociation_118_82BrJA,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_results_HistoryDatasetAssociation_118_RIUU8Y,/home/galaxy/galaxy/database/files/000/dataset_118.dat,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_override_HistoryDatasetAssociation_118_QvD8nD" "/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_in_HistoryDatasetAssociation_119_Bq3nDs,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_kwds_HistoryDatasetAssociation_119_4ToQuw,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_out_HistoryDatasetAssociation_119_GMranm,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_results_HistoryDatasetAssociation_119_khXWbz,/home/galaxy/galaxy/database/files/000/dataset_119.dat,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_override_HistoryDatasetAssociation_119_5eQzTB" "/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_in_HistoryDatasetAssociation_120_3hMgrm,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_kwds_HistoryDatasetAssociation_120_zdFoI0,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_out_HistoryDatasetAssociation_120_FexPJy,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_results_HistoryDatasetAssociation_120_Y1Cqt0,/home/galaxy/galaxy/database/files/000/dataset_120.dat,/home/galaxy/galaxy/database/jobs_directory/000/27/metadata_override_HistoryDatasetAssociation_120_g5b9q1" 5242880; sh -c "exit $return_code"
+galaxy.jobs.runners.local DEBUG 2017-08-08 13:04:13,386 (27) executing job script: /home/galaxy/galaxy/database/jobs_directory/000/27/galaxy_27.sh
+galaxy.jobs DEBUG 2017-08-08 13:04:13,403 (27) Persisting job destination (destination id: local:///)
+galaxy.jobs.runners.local DEBUG 2017-08-08 13:04:20,460 execution finished: /home/galaxy/galaxy/database/jobs_directory/000/27/galaxy_27.sh
+galaxy.jobs INFO 2017-08-08 13:04:21,767 Collecting metrics for Job 27
+galaxy.jobs DEBUG 2017-08-08 13:04:22,060 job 27 ended (finish() executed in (1599.599 ms))
+galaxy.model.metadata DEBUG 2017-08-08 13:04:22,090 Cleaning up external metadata files
+galaxy.model.metadata DEBUG 2017-08-08 13:04:22,177 Failed to cleanup MetadataTempFile temp files from /home/galaxy/galaxy/database/jobs_directory/000/27/metadata_out_HistoryDatasetAssociation_114_2ueldG: No JSON object could be decoded
+galaxy.model.metadata DEBUG 2017-08-08 13:04:22,177 Failed to cleanup MetadataTempFile temp files from /home/galaxy/galaxy/database/jobs_directory/000/27/metadata_out_HistoryDatasetAssociation_115_zcoIKn: No JSON object could be decoded
+galaxy.jobs.handler INFO 2017-08-08 13:09:15,342 sending stop signal to worker thread
+galaxy.jobs.handler INFO 2017-08-08 13:09:15,342 job handler queue stopped
+galaxy.jobs.runners INFO 2017-08-08 13:09:15,342 LocalRunner: Sending stop signal to 5 worker threads
+galaxy.jobs.handler INFO 2017-08-08 13:09:15,342 sending stop signal to worker thread
+galaxy.jobs.handler INFO 2017-08-08 13:09:15,342 job handler stop queue stopped

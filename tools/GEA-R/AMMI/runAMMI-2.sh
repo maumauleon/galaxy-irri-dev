@@ -1,10 +1,11 @@
 #!/bin/bash
 
-input=$1
 
-#cp $input test.csv
+input=$1
 tmp=$RANDOM
 cp $input $tmp".csv"
+wd=$PWD
+
 
 #report=$2;
 #expdes=$3;
@@ -20,7 +21,7 @@ cp $input $tmp".csv"
 #html=${13};
 #tmp=$RANDOM;
 
-Rscript AMMI_SREG2.R $input $2 $3 $4 $5 $6 $7 $8 $9 $tmp
+Rscript /home/galaxy/tools/GEA-R/AMMI/AMMISREG.R $input $2 $3 $4 $5 $6 $7 $8 $9 $tmp
 #mv $tmp/Final* $report
 #mv $tmp/Gollob* $gbtest
 #mv $tmp/*PC1*PC2* $pc12

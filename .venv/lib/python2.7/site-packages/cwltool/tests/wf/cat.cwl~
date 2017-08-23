@@ -1,0 +1,10 @@
+class: CommandLineTool
+cwlVersion: v1.0
+inputs:
+  r: File
+outputs:
+  out:
+    type: File
+    outputBinding:
+      glob: foo$(inputs.r).txt
+arguments: [python, -c, $(inputs.script), $(inputs.r)]

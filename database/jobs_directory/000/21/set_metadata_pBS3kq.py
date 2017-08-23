@@ -1,0 +1,1 @@
+from galaxy_ext.metadata.set_metadata import set_metadata; set_metadata()

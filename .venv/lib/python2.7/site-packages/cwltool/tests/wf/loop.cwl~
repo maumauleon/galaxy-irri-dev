@@ -1,0 +1,15 @@
+cwlVersion: v1.0
+class: Workflow
+inputs:
+  a: int
+outputs: []
+steps:
+  step1:
+    in:
+      a: a
+    loop:
+      while: $(a > 1)
+        run: greater.cwl
+      - case: default
+        run: default.cwl
+    out: [out]
